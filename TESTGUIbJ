@@ -100,7 +100,7 @@ DS.MouseButton1Down:connect(function()
 Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://6942391979"
-		Spooky.Volume = 15
+		Spooky.Volume = 1
                 Spooky.Pitch = 1.2
 		Spooky.Looped = true
 		Spooky:Play()
