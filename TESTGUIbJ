@@ -99,8 +99,8 @@ DS.MouseButton1Down:connect(function()
 		s.SkyboxUp = "http://www.roblox.com/Asset/?id=15032057838"
 Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
-		Spooky.SoundId = "rbxassetid://6783714255"
-		Spooky.Volume = 20
+		Spooky.SoundId = "rbxassetid://6942391979"
+		Spooky.Volume = 15
                 Spooky.Pitch = 1.2
 		Spooky.Looped = true
 		Spooky:Play()
