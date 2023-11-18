@@ -5,7 +5,7 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local Credits = Instance.new("TextBox")
+local Credits = Instance.new("TextButton")
 local Name = Instance.new("TextButton")
 local AR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
@@ -34,12 +34,31 @@ Credits.BackgroundColor3 = Color3.new(1, 1, 1)
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "CODE HERE"
+Credits.Text = "k00pzkidd SKY BOX"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
+Credits.MouseButton1Down:connect(function()
 
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://1839246711"
+sound:Play()
+sound.Looped = true
+repeat
+wait(0.01)
+until sound.IsLoaded == true
+wait(13)
+de = Instance.new("DistortionSoundEffect",sound)
+de.Level = 0.8
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=13324998653"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=13324998653"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=13324998653"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=13324998653"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=13324998653"
+end)
 Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.new(1, 1, 1)
