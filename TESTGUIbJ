@@ -60,11 +60,6 @@ Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
 Name.MouseButton1Down:connect(function()
-if Credits.Text == "BOSSJKLOHAX2.61" then
-		wait(0.5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/EPIC-ONLY/main/EPIC%20ONLy"))()
-	end
-end)
 
 AR.Name = "autoreport"
 AR.Parent = Frame
