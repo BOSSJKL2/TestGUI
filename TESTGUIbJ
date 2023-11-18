@@ -41,17 +41,6 @@ Credits.TextSize = 14.000
 Credits.TextWrapped = true
 Credits.MouseButton1Down:connect(function()
 
-sound = Instance.new("Sound",workspace)
-sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
-sound.SoundId = "rbxassetid://1839246711"
-sound:Play()
-sound.Looped = true
-repeat
-wait(0.01)
-until sound.IsLoaded == true
-wait(13)
-de = Instance.new("DistortionSoundEffect",sound)
-de.Level = 0.8
 sky = Instance.new("Sky",game:GetService("Lighting"))
 sky.SkyboxBk = "http://www.roblox.com/asset/?id=13324998653"
 sky.SkyboxFt = "http://www.roblox.com/asset/?id=13324998653"
