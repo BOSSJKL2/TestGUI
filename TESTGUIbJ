@@ -473,7 +473,6 @@ then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/UPDBOSJKLSO/main/UPDBOSJKLSORANKS"))()
 	end
 end)
-end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
 e2006Theme.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
