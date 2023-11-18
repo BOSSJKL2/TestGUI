@@ -30,7 +30,8 @@ Frame.Size = UDim2.new(0, 378, 0, 250)
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
-Credits.BackgroundColor3 = Color3.new(1, 1, 1)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
@@ -559,8 +560,8 @@ local function QFCS_fake_script() -- Frame.Dragify
 	dragify(script.Parent)
 end
 coroutine.wrap(QFCS_fake_script)()
-local function PKIPWI_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+local function PKIPWI_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
  
 	while wait() do
 		for i = 0,255,5 do
