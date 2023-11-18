@@ -34,26 +34,27 @@ Credits.BackgroundColor3 = Color3.new(1, 1, 1)
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "c00lkidd SKY BOX"
+Credits.Text = "🔥c00l MUSIC Verry Loud Music Guys By BossJKLO"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
 Credits.MouseButton1Down:connect(function()
 
-sky = Instance.new("Sky",game:GetService("Lighting"))
-sky.SkyboxBk = "http://www.roblox.com/asset/?id=13546404275"
-sky.SkyboxFt = "http://www.roblox.com/asset/?id=13546404275"
-sky.SkyboxLf = "http://www.roblox.com/asset/?id=13546404275"
-sky.SkyboxRt = "http://www.roblox.com/asset/?id=13546404275"
-sky.SkyboxUp = "http://www.roblox.com/asset/?id=13546404275"
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://6942391979"
+		Spooky.Volume = 15
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
 end)
 Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.new(1, 1, 1)
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "b00sjkidd Gui   👑   UPDATE INFINITY"
+Name.Text = "b00sjkidd Gui   👑   BOSSJKLO SHOWCASE"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -104,19 +105,11 @@ DS.MouseButton1Down:connect(function()
 		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15032057838"
 		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15032057838"
 		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15032057838"
-		s.SkyboxUp = "http://www.roblox.com/Asset/?id=15032057838"
-Spooky = Instance.new("Sound", game.Workspace)
-		Spooky.Name = "Spooky"
-		Spooky.SoundId = "rbxassetid://6942391979"
-		Spooky.Volume = 15
-                Spooky.Pitch = 1.1
-		Spooky.Looped = true
-		Spooky:Play()
-
-		s.Parent = game.Lighting
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15032057838"
+                s.Parent = game.Lighting
 		local ID =15032057838 --id here
 		function spamDecal(v)
-			if v:IsA("Part") then
+	if v:IsA("Part") then
 				for i=0, 5 do
 					D = Instance.new("Decal")
 					D.Name = "K00PHACK"
