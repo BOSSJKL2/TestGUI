@@ -42,11 +42,11 @@ Credits.TextWrapped = true
 Credits.MouseButton1Down:connect(function()
 
 sky = Instance.new("Sky",game:GetService("Lighting"))
-sky.SkyboxBk = "http://www.roblox.com/asset/?id=13324998653"
-sky.SkyboxFt = "http://www.roblox.com/asset/?id=13324998653"
-sky.SkyboxLf = "http://www.roblox.com/asset/?id=13324998653"
-sky.SkyboxRt = "http://www.roblox.com/asset/?id=13324998653"
-sky.SkyboxUp = "http://www.roblox.com/asset/?id=13324998653"
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=13546404275"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=13546404275"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=13546404275"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=13546404275"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=13546404275"
 end)
 Name.Name = "Name"
 Name.Parent = Frame
