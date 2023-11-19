@@ -66,13 +66,13 @@ AR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 AR.Size = UDim2.new(0, 79, 0, 31)
 AR.Font = Enum.Font.GothamBold
-AR.Text = "k00pzkidd DecalSpam"
+AR.Text = "k00pzkidd Decal"
 AR.TextColor3 = Color3.fromRGB(0, 0, 0)
 AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
-	while true do
+
 s = Instance.new("Sky")
 		s.Name = "SKY"
 		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
@@ -135,7 +135,7 @@ DS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 DS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DS.Size = UDim2.new(0, 79, 0, 31)
 DS.Font = Enum.Font.GothamBold
-DS.Text = "JO1TAR0 DecalSpam"
+DS.Text = "JO1TAR0 Decal"
 DS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DS.TextScaled = true
 DS.TextSize = 14.000
