@@ -66,16 +66,20 @@ AR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 AR.Size = UDim2.new(0, 79, 0, 31)
 AR.Font = Enum.Font.GothamBold
-AR.Text = "AUTOREPORT"
+AR.Text = "JO1TAR0 Chat"
 AR.TextColor3 = Color3.fromRGB(0, 0, 0)
 AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
 	while true do
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/revamp.lua'))()
-wait(1)
-    end
+local A_1 = "JO1TAR0!!                                                                                                                                              [😡] TEAM JO1TAR0 HAS JOINED TODAY."
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+
+wait(1)	
+
 end)
 DS.Name = "decalspam"
 DS.Parent = Frame
@@ -574,7 +578,7 @@ e2006Theme.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 e2006Theme.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
 e2006Theme.Size = UDim2.new(0, 89, 0, 31)
 e2006Theme.Font = Enum.Font.GothamBold
-e2006Theme.Text = "Chat"
+e2006Theme.Text = "JKLO Chat"
 e2006Theme.TextColor3 = Color3.fromRGB(0, 0, 0)
 e2006Theme.TextScaled = true
 e2006Theme.TextSize = 14.000
