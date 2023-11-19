@@ -393,7 +393,7 @@ e666.MouseButton1Down:connect(function()
 
 	local msg = Instance.new("Message",workspace)
 		msg.Text = "TEAM JKLO,JO1TAR0,K00PZKIDD Is Destroying!!!"
-		wait(5.8)
+		wait(3)
 		msg:Destroy()
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
