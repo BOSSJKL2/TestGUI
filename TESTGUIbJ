@@ -66,21 +66,69 @@ AR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 AR.Size = UDim2.new(0, 79, 0, 31)
 AR.Font = Enum.Font.GothamBold
-AR.Text = "JO1TAR0 Chat"
+AR.Text = "k00pzkidd DecalSpam"
 AR.TextColor3 = Color3.fromRGB(0, 0, 0)
 AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
 	while true do
-local A_1 = "JO1TAR0!!                                                                                                                                              [😡] TEAM JO1TAR0 HAS JOINED TODAY."
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-
-wait(1)	
-
-end)
+s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
+		s.Parent = game.Lighting
+		Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://152745539"
+		Spooky.Volume = 20
+		Spooky.Looped = true
+		Spooky:Play()
+		local ID =11588317701 --id here
+		function spamDecal(v)
+			if v:IsA("Part") then
+				for i=0, 5 do
+					D = Instance.new("Decal")
+					D.Name = "K00PHACK"
+					D.Face = i
+					D.Parent = v
+					D.Texture = ("http://www.roblox.com/asset/?id="..Id)
+				end
+			else
+				if v:IsA("Model") then
+					for a,b in pairs(v:GetChildren()) do
+						spamDecal(b)
+					end
+				end
+			end
+		end
+		function decalspam(id) --use this function, not the one on top
+			Id = id
+			for i,v in pairs(game.Workspace:GetChildren()) do
+				if v:IsA("Part") then
+					for i=0, 5 do
+						D = Instance.new("Decal")
+						D.Name = "MYDECALHUE"
+						D.Face = i
+						D.Parent = v
+						D.Texture = ("http://www.roblox.com/asset/?id="..id)
+					end
+				else
+					if v:IsA("Model") then
+						for a,b in pairs(v:GetChildren()) do
+							spamDecal(b)
+						end
+					end
+				end
+			end
+		end
+	
+		decalspam(ID)
+	end)
 DS.Name = "decalspam"
 DS.Parent = Frame
 DS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
