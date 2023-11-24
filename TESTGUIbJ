@@ -561,9 +561,10 @@ ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 
-	local region = Region3.new(Vector3.new(-1250,0,-1250), Vector3.new(1250,18,1250))
-		region = region:ExpandToGrid(4)
-		game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
+	Frame.Visible = false
+		wait(0.5)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/PAGE%202%20GUI"))()
+	end
 end)
 
 -- Scripts:
