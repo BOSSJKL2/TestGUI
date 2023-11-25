@@ -563,7 +563,6 @@ ForceField.MouseButton1Down:connect(function()
 
 	loadstring(game:HttpGet(('https://pastefy.ga/zxwQDjbc/raw'),true))()
 
-	end
 end)
 
 -- Scripts:
