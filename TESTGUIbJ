@@ -554,15 +554,16 @@ ForceField.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 ForceField.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceField.Size = UDim2.new(0, 89, 0, 34)
 ForceField.Font = Enum.Font.GothamBold
-ForceField.Text = "TOOL"
+ForceField.Text = "FLOOD"
 ForceField.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceField.TextScaled = true
 ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 
-	loadstring(game:HttpGet(('https://pastefy.ga/zxwQDjbc/raw'),true))()
-
+	local region = Region3.new(Vector3.new(-1250,0,-1250), Vector3.new(1250,18,1250))
+		region = region:ExpandToGrid(4)
+		game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
 end)
 
 -- Scripts:
