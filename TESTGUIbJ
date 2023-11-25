@@ -561,9 +561,31 @@ ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 
-	local region = Region3.new(Vector3.new(-1250,0,-1250), Vector3.new(1250,18,1250))
-		region = region:ExpandToGrid(4)
-		game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
+	local platform = Instance.new("Part")
+	platform.Size = Vector3.new(16, 1, 16)
+	platform.Transparency = 0.5
+	platform.Color = Color3.fromRGB(255, 0, 255)
+	platform.Anchored = true
+	platform.Parent = workspace
+	local player_position = game.Players.LocalPlayer.Character.Head.Position
+	platform.Position = Vector3.new(player_position.X, player_position.Y-5, player_position.Z)
+end
+
+function toggle_teleport_troll()
+	if teleport_troll_active.Value == true then
+		teleport_troll_active.Value = false
+	else
+		teleport_troll_active.Value = true
+	end
+	
+	while teleport_troll_active.Value == true do
+		for i,v in pairs(game.Players:GetChildren()) do
+			local current_player_character = v.Character
+			game.Players.LocalPlayer.Character:moveTo(current_player_character.Head.Position)
+			wait(0.1)
+		end
+		wait(0.1)
+	end
 end)
 
 -- Scripts:
