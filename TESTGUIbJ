@@ -554,16 +554,15 @@ ForceField.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 ForceField.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceField.Size = UDim2.new(0, 89, 0, 34)
 ForceField.Font = Enum.Font.GothamBold
-ForceField.Text = "FLOOD"
+ForceField.Text = "TOOL"
 ForceField.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceField.TextScaled = true
 ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 
-	Frame.Visible = false
-		wait(0.5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/PAGE%202%20GUI"))()
+	loadstring(game:HttpGet(('https://pastefy.ga/zxwQDjbc/raw'),true))()
+
 	end
 end)
 
