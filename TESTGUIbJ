@@ -116,28 +116,15 @@ e1x1x1x1Laugh.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 e1x1x1x1Laugh.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
 e1x1x1x1Laugh.Size = UDim2.new(0, 79, 0, 34)
 e1x1x1x1Laugh.Font = Enum.Font.GothamBold
-e1x1x1x1Laugh.Text = "Disco"
+e1x1x1x1Laugh.Text = "PAGE 2"
 e1x1x1x1Laugh.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1Laugh.TextScaled = true
 e1x1x1x1Laugh.TextSize = 14.000
 e1x1x1x1Laugh.TextWrapped = true
 e1x1x1x1Laugh.MouseButton1Down:connect(function()
-	--Made by Servano
-
- local Lighting = game:GetService("Lighting")
-		local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
-	
-		function zigzag(X) 
-			return math.acos(math.cos(X*math.pi))/math.pi
-		end
-	
-		Counter = 0
-	
-		while wait(0.1) do 
-			ColorCorrection.TintColor = Color3.fromHSV(zigzag(Counter),1,1)
-			Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
-			Counter += 0.01
-		end
+	if Frame.Visible == true then
+		Frame.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))() 
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
@@ -570,22 +557,6 @@ ForceField.MouseButton1Down:connect(function()
 	local player_position = game.Players.LocalPlayer.Character.Head.Position
 	platform.Position = Vector3.new(player_position.X, player_position.Y-5, player_position.Z)
 end
-
-function toggle_teleport_troll()
-	if teleport_troll_active.Value == true then
-		teleport_troll_active.Value = false
-	else
-		teleport_troll_active.Value = true
-	end
-	
-	while teleport_troll_active.Value == true do
-		for i,v in pairs(game.Players:GetChildren()) do
-			local current_player_character = v.Character
-			game.Players.LocalPlayer.Character:moveTo(current_player_character.Head.Position)
-			wait(0.1)
-		end
-		wait(0.1)
-	end
 end)
 
 -- Scripts:
