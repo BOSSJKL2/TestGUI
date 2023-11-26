@@ -394,8 +394,9 @@ e666.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
 	end
 wait(1)
-Frame.Visible = false
+Frame.Visible = true
            end
+Frame.Visible = false
     wait(1)
 end
 end)
