@@ -5,6 +5,7 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
+local minimized = Instance.new("TextBox")
 local Credits = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
 local AR = Instance.new("TextButton")
@@ -27,6 +28,19 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
 Frame.Size = UDim2.new(0, 378, 0, 250)
+
+minimized.Name = "minimized"
+minimized.Parent = JKLO
+minimized.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimized.BackgroundTransparency = 1.000
+minimized.BorderColor3 = Color3.fromRGB(0, 0, 0)
+minimized.BorderSizePixel = 0
+minimized.Position = UDim2.new(-0.000545215677, 0, 0.945157588, 0)
+minimized.Size = UDim2.new(0, 93, 0, 31)
+minimized.Font = Enum.Font.SourceSans
+minimized.Text = ""
+minimized.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimized.TextSize = 17.000
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
@@ -391,10 +405,11 @@ e666.TextScaled = true
 e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
-	if e666.Text == "Page2" then
+	if minimized.Text == "" then
 		Frame.Visible = false
 		wait(0.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
+	end
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
