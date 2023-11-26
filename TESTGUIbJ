@@ -399,23 +399,39 @@ e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
 wait(1)
 DSx.Visible = true
+wait(0)
 ARx.Visible = true
+wait(0)
 Namex.Visible = true
+wait(0)
 Creditsx.Visible = true
+wait(0)
 Framex.Visible = true
+wait(0)
 Frame.Visible = false
+wait(0)
 Credits.Visible = false
+wait(0)
 DayToNight.Visible = false
+wait(0)
 e1x1x1x1Laugh.Visible = false
+wait(0)
 DS.Visible = false
+wait(0)
 AR.Visible = false
+wait(0)
 Name.Visible = false
+wait(0)
 ForceField.Visible = false
+wait(0)
 e2006Theme.Visible = false
+wait(0)
 Disc0.Visible = false
+wait(0)
 EpicSaxGuy.Visible = false
+wait(0)
 e666.Visible = false
-
+wait(0)
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
