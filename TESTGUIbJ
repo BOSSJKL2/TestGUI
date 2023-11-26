@@ -6,7 +6,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Credits = Instance.new("TextButton")
-local Name = Instance.new("TextBox")
+local Name = Instance.new("TextLabel")
 local AR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
@@ -391,7 +391,7 @@ e666.TextScaled = true
 e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
-	if Name.Text == "b00sjkidd Gui  👑   SHOWCASE" then
+	if Name.Text = "b00sjkidd Gui  👑   SHOWCASE" then
 		Frame.Visible = false
 		wait(0.5)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
