@@ -392,11 +392,9 @@ e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
 	if e666.Text == "Page2" then
+		Frame.Visible = false
 		wait(0.5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
-	end
-wait(1)
-ScreenGui:Remove()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
