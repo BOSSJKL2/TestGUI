@@ -391,11 +391,13 @@ e666.TextScaled = true
 e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
-	if Name.Text = "b00sjkidd Gui  👑   SHOWCASE" then
-		Frame.Visible = false
-		wait(0.5)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
 	end
+wait(1)
+Frame.Visible = false
+           end
+    wait(1)
+end
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
