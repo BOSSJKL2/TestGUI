@@ -398,7 +398,6 @@ e666.MouseButton1Down:connect(function()
 wait(1)
 ScreenGui:Remove()
 end)
-end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
 EpicSaxGuy.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
