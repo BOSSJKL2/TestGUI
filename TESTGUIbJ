@@ -397,14 +397,25 @@ e666.TextScaled = true
 e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/PAGE-2/main/Backdoor"))()
-	end
 wait(1)
-Frame.Visible = true
-           end
+DSx.Visible = true
+ARx.Visible = true
+Namex.Visible = true
+Creditsx.Visible = true
+Framex.Visible = true
 Frame.Visible = false
-    wait(1)
-end
+Credits.Visible = false
+DayToNight.Visible = false
+e1x1x1x1Laugh.Visible = false
+DS.Visible = false
+AR.Visible = false
+Name.Visible = false
+ForceField.Visible = false
+e2006Theme.Visible = false
+Disc0.Visible = false
+EpicSaxGuy.Visible = false
+e666.Visible = false
+
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
