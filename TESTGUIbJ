@@ -30,11 +30,10 @@ Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
 Frame.Size = UDim2.new(0, 378, 0, 250)
 
 minimized.Name = "minimized"
-minimized.Parent = JKLO
+minimized.Parent = Frame
 minimized.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 minimized.BackgroundTransparency = 1.000
 minimized.BorderColor3 = Color3.fromRGB(0, 0, 0)
-minimized.BorderSizePixel = 0
 minimized.Position = UDim2.new(-0.000545215677, 0, 0.945157588, 0)
 minimized.Size = UDim2.new(0, 93, 0, 31)
 minimized.Font = Enum.Font.SourceSans
