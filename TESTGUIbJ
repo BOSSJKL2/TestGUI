@@ -16,6 +16,11 @@ local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
+local Framex = Instance.new("Frame")
+local Creditsx = Instance.new("TextButton")
+local Namex = Instance.new("TextLabel")
+local ARx = Instance.new("TextButton")
+local DSx = Instance.new("TextButton")
 
 --Properties:
 
@@ -52,9 +57,10 @@ end)
 Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Name.BackgroundTransparency = 1.000
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "b00sjkidd Gui   👑   UPDATE 2.64_x"
+Name.Text = "b00sjkidd Gui  👑   SHOWCASE"
 Name.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -390,11 +396,41 @@ e666.TextScaled = true
 e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
-
-	local msg = Instance.new("Message",workspace)
-		msg.Text = "TEAM JKLO,JO1TAR0,K00PZKIDD Is Destroying!!!"
-		wait(3)
-		msg:Destroy()
+wait(1)
+DSx.Visible = true
+wait(0)
+ARx.Visible = true
+wait(0)
+Namex.Visible = true
+wait(0)
+Creditsx.Visible = true
+wait(0)
+Framex.Visible = true
+wait(0)
+Frame.Visible = false
+wait(0)
+Credits.Visible = false
+wait(0)
+DayToNight.Visible = false
+wait(0)
+e1x1x1x1Laugh.Visible = false
+wait(0)
+DS.Visible = false
+wait(0)
+AR.Visible = false
+wait(0)
+Name.Visible = false
+wait(0)
+ForceField.Visible = false
+wait(0)
+e2006Theme.Visible = false
+wait(0)
+Disc0.Visible = false
+wait(0)
+EpicSaxGuy.Visible = false
+wait(0)
+e666.Visible = false
+wait(0)
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
@@ -560,7 +596,398 @@ ForceField.TextScaled = true
 ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/WB9swe5w"))()
+while true do
+--TJ
+local p = game.Players.LocalPlayer.Character
+local weld = Instance.new("Weld",p.Torso)
+weld.Part0 = p.Torso
+
+local train = Instance.new("Part",p.Torso)
+train.Anchored = true
+train.CanCollide = false
+train.Size = Vector3.new(3,2,6)
+train.CustomPhysicalProperties = PhysicalProperties.new(0,0,0,0,0)
+weld.Part1 = train
+weld.C1 = CFrame.new(0,0,0) * CFrame.Angles(0,math.rad(180),0)
+train.Anchored = false
+local TrainMesh = Instance.new("SpecialMesh",train)
+TrainMesh.MeshType = Enum.MeshType.FileMesh
+TrainMesh.Scale = Vector3.new(0.020,0.020,0.015)
+TrainMesh.MeshId = "rbxassetid://431017802"
+TrainMesh.TextureId = "rbxassetid://431017809"
+
+
+local weld2 = Instance.new("Weld",p.Torso)
+weld2.Part0 = p.Torso
+local Smoke = Instance.new("Part",p.Torso)
+Smoke.Anchored = true
+Smoke.CanCollide = false
+Smoke.Size = Vector3.new(1,1,1)
+Smoke.CustomPhysicalProperties = PhysicalProperties.new(0,0,0,0,0)
+weld2.Part1 = Smoke
+weld2.C1 = CFrame.new(0,-4,3.5)-- * CFrame.Angles(0,math.rad(180),0)
+Smoke.Anchored = false
+Smoke.Transparency = 1;
+
+local Particle = Instance.new("ParticleEmitter",Smoke)
+Particle.Rate = 100;
+Particle.Speed = NumberRange.new(30,60);
+Particle.VelocitySpread = 4;
+Particle.Texture = "rbxassetid://133619974"
+
+local Light = Instance.new("SpotLight",train)
+Light.Angle = 45;
+Light.Brightness = 100;
+Light.Face = Enum.NormalId.Back;
+Light.Range = 30;
+
+p.Humanoid.WalkSpeed = 80;
+
+for i,v in pairs(p:GetChildren()) do
+	if v:IsA("Part") then
+		v.Transparency = 1;
+	elseif v:IsA("Hat") then
+		v:Destroy()
+	elseif v:IsA("Model") then
+		v:Destroy()
+	end
+end
+
+
+local function SFX(id) local s=Instance.new("Sound",p.Torso); s.SoundId = "rbxassetid://"..id; s.Volume = 1; return s; end
+train.Touched:connect(function(p)
+	if p.Parent then
+		if p.Parent:IsA("Model") then
+			if game.Players:FindFirstChild(p.Parent.Name) then
+				if p.Parent.Name ~= game.Players.LocalPlayer.Name then
+					game.Players:FindFirstChild(p.Parent.Name)
+					local Whistle = SFX(475073913)
+					Whistle:Play()
+				end
+			end
+		end
+	end
+end)
+
+local Music = SFX(0)
+Music.Looped = true;
+wait(1)
+Music:Play();
+-- ~CL 2016
+
+wait(0.9)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+
+wait(0.1)
+
+local lplr = game.Players.LocalPlayer
+
+local check = function(character : Model)
+    if character and character:FindFirstChild("Humanoid") and character.Humanoid.Health ~= 0 and (lplr.Character.HumanoidRootPart.Position - character.HumanoidRootPart.Position).magnitude <= 9 then
+        return true
+    else
+        return false
+    end
+end
+
+while task.wait() do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v ~= lplr and check(v.Character) then
+            game:GetService("ReplicatedStorage").meleeEvent:FireServer(v)
+        end
+    end
+end
+end)
+-- page2
+
+Framex.Parent = ScreenGui
+Framex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Framex.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
+Framex.Size = UDim2.new(0, 378, 0, 250)
+
+Creditsx.Name = "Credits"
+Creditsx.Parent = Frame
+Creditsx.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Creditsx.Visible = false
+Creditsx.Position = UDim2.new(0, 0, 0.912, 0)
+Creditsx.Size = UDim2.new(0, 378, 0, 22)
+Creditsx.Font = Enum.Font.GothamBold
+Creditsx.Text = "GoBack"
+Creditsx.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditsx.TextScaled = true
+Creditsx.TextSize = 14.000
+Creditsx.TextWrapped = true
+Creditsx.MouseButton1Down:connect(function()
+
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://6942391979"
+		Spooky.Volume = 15
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
+end)
+Namex.Name = "Name"
+Namex.Parent = Frame
+Namex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Namex.Visible = false
+Namex.BackgroundTransparency = 1.000
+Namex.Size = UDim2.new(0, 378, 0, 25)
+Namex.Font = Enum.Font.GothamBold
+Namex.Text = "b00sjkidd Gui  👑   PAGE2"
+Namex.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Namex.TextScaled = true
+Namex.TextSize = 14.000
+Namex.TextWrapped = true
+
+ARx.Name = "autoreport"
+ARx.Parent = Frame
+ARx.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+ARx.Visible = false
+ARx.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
+ARx.Size = UDim2.new(0, 79, 0, 31)
+ARx.Font = Enum.Font.GothamBold
+ARx.Text = "k00pzkidd Sky"
+ARx.TextColor3 = Color3.fromRGB(0, 0, 0)
+ARx.TextScaled = true
+ARx.TextSize = 14.000
+ARx.TextWrapped = true
+ARx.MouseButton1Down:connect(function()
+
+s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
+		s.Parent = game.Lighting
+		
+	end)
+DSx.Name = "decalspam"
+DSx.Parent = Frame
+DSx.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+DSx.Visible = false
+DSx.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
+DSx.Size = UDim2.new(0, 79, 0, 31)
+DSx.Font = Enum.Font.GothamBold
+DSx.Text = "JO1TAR0 Sky"
+DSx.TextColor3 = Color3.fromRGB(0, 0, 0)
+DSx.TextScaled = true
+DSx.TextSize = 14.000
+DSx.TextWrapped = true
+DSx.MouseButton1Down:connect(function()
+	--Made by Servano
+
+	
+		s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
+                s.Parent = game.Lighting
+		
 end)
 
 -- Scripts:
@@ -593,6 +1020,48 @@ local function QFCS_fake_script() -- Frame.Dragify
 	        end
 	    end)
 	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(QFCS_fake_script)()
+local function QFCS_fake_script() -- Framex.Dragify 
+	local script = Instance.new('LocalScript', Framex)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Framex)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Framex, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Framex.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Framex.InputChanged:Connect(function(input)
 	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 	            dragInput = input
 	        end
