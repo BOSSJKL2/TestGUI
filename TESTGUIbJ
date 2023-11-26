@@ -16,6 +16,12 @@ local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
+--Page2
+local Framex = Instance.new("Frame")
+local Creditsx = Instance.new("TextButton")
+local Namex = Instance.new("TextLabel")
+local ARx = Instance.new("TextButton")
+local DSx = Instance.new("TextButton")
 
 --Properties:
 
@@ -862,6 +868,100 @@ while task.wait() do
         end
     end
 end
+end)
+-- page2
+
+Framex.Parent = ScreenGui
+Framex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Framex.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
+Framex.Size = UDim2.new(0, 378, 0, 250)
+
+Creditsx.Name = "Credits"
+Creditsx.Parent = Frame
+Creditsx.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Creditsx.Visible = false
+Creditsx.Position = UDim2.new(0, 0, 0.912, 0)
+Creditsx.Size = UDim2.new(0, 378, 0, 22)
+Creditsx.Font = Enum.Font.GothamBold
+Creditsx.Text = "GoBack"
+Creditsx.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditsx.TextScaled = true
+Creditsx.TextSize = 14.000
+Creditsx.TextWrapped = true
+Creditsx.MouseButton1Down:connect(function()
+
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://6942391979"
+		Spooky.Volume = 15
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
+end)
+Namex.Name = "Name"
+Namex.Parent = Frame
+Namex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Namex.Visible = false
+Namex.BackgroundTransparency = 1.000
+Namex.Size = UDim2.new(0, 378, 0, 25)
+Namex.Font = Enum.Font.GothamBold
+Namex.Text = "b00sjkidd Gui  👑   PAGE2"
+Namex.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Namex.TextScaled = true
+Namex.TextSize = 14.000
+Namex.TextWrapped = true
+
+ARx.Name = "autoreport"
+ARx.Parent = Frame
+ARx.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+ARx.Visible = false
+ARx.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
+ARx.Size = UDim2.new(0, 79, 0, 31)
+ARx.Font = Enum.Font.GothamBold
+ARx.Text = "k00pzkidd Sky"
+ARx.TextColor3 = Color3.fromRGB(0, 0, 0)
+ARx.TextScaled = true
+ARx.TextSize = 14.000
+ARx.TextWrapped = true
+ARx.MouseButton1Down:connect(function()
+
+s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
+		s.Parent = game.Lighting
+		
+	end)
+DSx.Name = "decalspam"
+DSx.Parent = Frame
+DSx.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+DSx.Visible = false
+DSx.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
+DSx.Size = UDim2.new(0, 79, 0, 31)
+DSx.Font = Enum.Font.GothamBold
+DSx.Text = "JO1TAR0 Sky"
+DSx.TextColor3 = Color3.fromRGB(0, 0, 0)
+DSx.TextScaled = true
+DSx.TextSize = 14.000
+DSx.TextWrapped = true
+DSx.MouseButton1Down:connect(function()
+	--Made by Servano
+
+	
+		s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
+                s.Parent = game.Lighting
+		
 end)
 
 -- Scripts:
