@@ -14,6 +14,7 @@ local DSS = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
 local e666 = Instance.new("TextButton")
+local 666 = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
@@ -450,6 +451,33 @@ e2006Theme.Visible = false
 Disc0.Visible = false
 EpicSaxGuy.Visible = false
 e666.Visible = false
+wait(0.2)
+end)
+666.Name = "666"
+666.Parent = Frame
+666.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
+666.Size = UDim2.new(0, 83, 0, 31)
+666.Font = Enum.Font.GothamBold
+666.Text = "NEXT"
+666.TextColor3 = Color3.fromRGB(0, 0, 0)
+666.TextScaled = true
+666.TextSize = 14.000
+666.TextWrapped = true
+666.MouseButton1Down:connect(function()
+wait(0.2)
+DSS.Visible = false
+ARS.Visible = false
+DayToNight.Visible = true
+e1x1x1x1Laugh.Visible = true
+DS.Visible = true
+AR.Visible = true
+ForceField.Visible = true
+e2006Theme.Visible = true
+Disc0.Visible = true
+EpicSaxGuy.Visible = true
+e666.Visible = true
+666.Visible = false
 wait(0.2)
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
