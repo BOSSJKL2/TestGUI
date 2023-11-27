@@ -14,7 +14,6 @@ local DSS = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
 local e666 = Instance.new("TextButton")
-local 666e = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
@@ -123,18 +122,24 @@ ARS.Visible = false
 ARS.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 ARS.Size = UDim2.new(0, 79, 0, 31)
 ARS.Font = Enum.Font.GothamBold
-ARS.Text = "MSG"
+ARS.Text = "k00pzkidd Sky"
 ARS.TextColor3 = Color3.fromRGB(0, 0, 0)
 ARS.TextScaled = true
 ARS.TextSize = 14.000
 ARS.TextWrapped = true
 ARS.MouseButton1Down:connect(function()
-msg = Instance.new("Message")
-		msg.Parent = game.Workspace
-		msg.Text = "TEAM JKLO HAS DESTROYED PRISON LIFE!"
-		wait(6)
-		msg:remove()
-end)
+
+s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
+		s.Parent = game.Lighting
+		
+	end)
 DSS.Name = "decalspam"
 DSS.Parent = Frame
 DSS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -454,33 +459,6 @@ e2006Theme.Visible = false
 Disc0.Visible = false
 EpicSaxGuy.Visible = false
 e666.Visible = false
-wait(0.2)
-end)
-666e.Name = "e666"
-666e.Parent = Frame
-666e.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
-666e.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
-666e.Size = UDim2.new(0, 83, 0, 31)
-666e.Font = Enum.Font.GothamBold
-666e.Text = "BACK"
-666e.TextColor3 = Color3.fromRGB(0, 0, 0)
-666e.TextScaled = true
-666e.TextSize = 14.000
-666e.TextWrapped = true
-666e.MouseButton1Down:connect(function()
-wait(0.2)
-DSS.Visible = false
-ARS.Visible = false
-666e.Visible = false
-DayToNight.Visible = true
-e1x1x1x1Laugh.Visible = true
-DS.Visible = true
-AR.Visible = true
-ForceField.Visible = true
-e2006Theme.Visible = true
-Disc0.Visible = true
-EpicSaxGuy.Visible = true
-e666.Visible = true
 wait(0.2)
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
