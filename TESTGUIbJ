@@ -123,24 +123,18 @@ ARS.Visible = false
 ARS.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 ARS.Size = UDim2.new(0, 79, 0, 31)
 ARS.Font = Enum.Font.GothamBold
-ARS.Text = "k00pzkidd Sky"
+ARS.Text = "MSG"
 ARS.TextColor3 = Color3.fromRGB(0, 0, 0)
 ARS.TextScaled = true
 ARS.TextSize = 14.000
 ARS.TextWrapped = true
 ARS.MouseButton1Down:connect(function()
 
-s = Instance.new("Sky")
-		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
-		s.Parent = game.Lighting
-		
-	end)
+local msg = Instance.new("Message",workspace)
+		msg.Text = "TEAM JKLO,JO1TAR0,K00PZKIDD Is Destroying!!!"
+		wait(3)
+		msg:Destroy()
+end)
 DSS.Name = "decalspam"
 DSS.Parent = Frame
 DSS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
