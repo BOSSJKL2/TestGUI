@@ -142,25 +142,14 @@ DSS.Visible = false
 DSS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DSS.Size = UDim2.new(0, 79, 0, 31)
 DSS.Font = Enum.Font.GothamBold
-DSS.Text = "JO1TAR0 Sky"
+DSS.Text = "JO1TAR0 RC7"
 DSS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DSS.TextScaled = true
 DSS.TextSize = 14.000
 DSS.TextWrapped = true
 DSS.MouseButton1Down:connect(function()
-	--Made by Servano
-
-	
-		s = Instance.new("Sky")
-		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
-                s.Parent = game.Lighting
-		
+--Made by JO1TAR0
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jo1tar0/rc7-yellow-theme-by-jo1tar0/main/no-leak%F0%9F%98%A1"))()		
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
 e1x1x1x1Laugh.Parent = Frame
