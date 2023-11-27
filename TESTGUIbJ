@@ -438,7 +438,7 @@ end
 end)
 e666.Name = "e666"
 e666.Parent = Frame
-e666.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+e666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 e666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 e666.Size = UDim2.new(0, 83, 0, 31)
 e666.Font = Enum.Font.GothamBold
@@ -465,7 +465,7 @@ wait(0.2)
 end)
 a666.Name = "e666"
 a666.Parent = Frame
-a666.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+a666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 a666.Visible = false
 a666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 a666.Size = UDim2.new(0, 83, 0, 31)
