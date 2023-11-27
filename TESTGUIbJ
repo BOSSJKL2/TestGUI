@@ -131,7 +131,7 @@ ARS.TextWrapped = true
 ARS.MouseButton1Down:connect(function()
 msg = Instance.new("Message")
 		msg.Parent = game.Workspace
-		msg.Text = "TEAM JKLO,JO1TAR0 AND K00PZKIDD HAS DESTROYED PRISON LIFE!"
+		msg.Text = "TEAM JKLO HAS DESTROYED PRISON LIFE!"
 		wait(6)
 		msg:remove()
 end)
