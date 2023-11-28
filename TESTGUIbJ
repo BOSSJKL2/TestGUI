@@ -150,7 +150,7 @@ DSS.TextWrapped = true
 DSS.MouseButton1Down:connect(function()
 --Made by JO1TAR0
 for i,v in pairs(game.Players:GetChildren()) do
-game:GetService TeleportService: Teleport(game id, v.Character)	
+game:GetService TeleportService: Teleport(game 12476784915, v.Character)	
  end
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
