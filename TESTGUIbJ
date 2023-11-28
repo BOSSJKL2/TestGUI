@@ -142,14 +142,16 @@ DSS.Visible = false
 DSS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DSS.Size = UDim2.new(0, 79, 0, 31)
 DSS.Font = Enum.Font.GothamBold
-DSS.Text = "JOHNDOE"
+DSS.Text = "MAP"
 DSS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DSS.TextScaled = true
 DSS.TextSize = 14.000
 DSS.TextWrapped = true
 DSS.MouseButton1Down:connect(function()
 --Made by JO1TAR0
-loadstring(game:HttpGet("https://pastebin.com/raw/vvMD5J4n"))()		
+for i,v in pairs(game.Players:GetChildren()) do
+game:GetService TeleportService: Teleport(game id, v.Character)	
+ end
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
 e1x1x1x1Laugh.Parent = Frame
