@@ -142,14 +142,14 @@ DSS.Visible = false
 DSS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DSS.Size = UDim2.new(0, 79, 0, 31)
 DSS.Font = Enum.Font.GothamBold
-DSS.Text = "JOHNDOE"
+DSS.Text = "INFYIELD"
 DSS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DSS.TextScaled = true
 DSS.TextSize = 14.000
 DSS.TextWrapped = true
 DSS.MouseButton1Down:connect(function()
 --Made by JO1TAR0
-loadstring(game:HttpGet("https://pastebin.com/raw/vvMD5J4n"))()		
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
 e1x1x1x1Laugh.Parent = Frame
@@ -639,7 +639,6 @@ ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WB9swe5w"))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 -- Scripts:
