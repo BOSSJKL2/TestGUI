@@ -725,6 +725,7 @@ end)
 Disc0s.Name = "Disc0"
 Disc0s.Parent = Frame
 Disc0s.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Disc0s.Visible = false
 Disc0s.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 Disc0s.Size = UDim2.new(0, 89, 0, 31)
 Disc0s.Font = Enum.Font.GothamBold
