@@ -730,9 +730,6 @@ Disc0s.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 Disc0s.Size = UDim2.new(0, 89, 0, 31)
 Disc0s.Image = "rbxassetid://3570695787"
 Disc0s.ImageColor3 = Color3.fromRGB(35, 35, 35)
-Disc0s.ScaleType = Enum.ScaleType.Slice
-Disc0s.SliceCenter = Rect.new(100, 100, 100, 100)
-Disc0s.SliceScale = 0.120
 
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
