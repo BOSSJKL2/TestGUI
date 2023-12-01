@@ -18,6 +18,7 @@ local e666 = Instance.new("TextButton")
 local a666 = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
+local Disc0s = Instance.new("ImageLabel")
 local e2006Theme = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
 
@@ -718,6 +719,19 @@ h.Text = "KingDof39 change the experience guys!!! have fun😱👌"
 wait(9999999999999)
 h:Remove()
 end)
+
+Disc0s.Name = "Disc0"
+Disc0s.Parent = LoadingFrame
+Disc0s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Disc0s.BackgroundTransparency = 1.000
+Disc0s.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
+Disc0s.Size = UDim2.new(0, 89, 0, 31)
+Disc0s.Image = "rbxassetid://3570695787"
+Disc0s.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Disc0s.ScaleType = Enum.ScaleType.Slice
+Disc0s.SliceCenter = Rect.new(100, 100, 100, 100)
+Disc0s.SliceScale = 0.120
+
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
 e2006Theme.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
