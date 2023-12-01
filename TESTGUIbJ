@@ -18,6 +18,7 @@ local DayToNights = Instance.new("TextButton")
 local e666 = Instance.new("TextButton")
 local a666 = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
+local EpicSaxGuys = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local Disc0s = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
@@ -689,6 +690,7 @@ a666.Visible = true
 DayToNights.Visible = true
 Disc0s.Visible = true
 e1x1x1x1Laughs.Visible = true
+EpicSaxGuys.Visible = true
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
@@ -720,6 +722,7 @@ a666.Visible = false
 DayToNights.Visible = false
 Disc0s.Visible = false
 e1x1x1x1Laughs.Visible = false
+EpicSaxGuys.Visible = false
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
 DS.Visible = true
@@ -737,12 +740,53 @@ EpicSaxGuy.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 EpicSaxGuy.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuy.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuy.Font = Enum.Font.GothamBold
-EpicSaxGuy.Text = "Jumpscare"
+EpicSaxGuy.Text = "BOSSJKLOJumpscare"
 EpicSaxGuy.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuy.TextScaled = true
 EpicSaxGuy.TextSize = 14.000
 EpicSaxGuy.TextWrapped = true
 EpicSaxGuy.MouseButton1Down:connect(function()
+    -- Made by Boss
+for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name ~= me and not v.PlayerGui:FindFirstChild("k00pkidd's Jumpscare") and v:FindFirstChild("PlayerGui") then
+			spawn(function()
+				local newgui = Instance.new("ScreenGui",v.PlayerGui)
+				newgui.Name = "k00p's Jumpscare"
+				local newimage = Instance.new("ImageLabel",newgui)
+				newimage.Image = "http://www.roblox.com/Asset/?id=15032057838"
+				newimage.Size = UDim2.new(1,1,1,1)
+				local s = Instance.new("Sound",newgui)
+				s.SoundId = "rbxassetid://9069609200"
+				s.Volume = 9e9
+				s.Looped = true
+				s:Play()
+				print("Screamed "..v.Name)
+				while wait(9) do
+
+					newimage.Parent:Destroy()
+wait(2)
+k00p = Instance.new("Sound", game.Workspace)
+		k00p.Name = "k00p's Sound"
+		k00p.SoundId = "rbxassetid://8894394467"
+		k00p.Volume = 10
+        k00p.Pitch = 0.85
+		k00p:Play()
+
+				end
+end)
+EpicSaxGuys.Name = "EpicSaxGuy"
+EpicSaxGuys.Parent = Frame
+EpicSaxGuys.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+EpicSaxGuys.Visible = false
+EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
+EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
+EpicSaxGuys.Font = Enum.Font.GothamBold
+EpicSaxGuys.Text = "JO1TAR0Jumpscare"
+EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
+EpicSaxGuys.TextScaled = true
+EpicSaxGuys.TextSize = 14.000
+EpicSaxGuys.TextWrapped = true
+EpicSaxGuys.MouseButton1Down:connect(function()
     -- Made by Boss
 				
 					loadstring(game:HttpGet("https://pastebin.com/raw/MvF9uyT4"))()
