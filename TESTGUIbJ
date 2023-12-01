@@ -723,14 +723,203 @@ h:Remove()
 end)
 
 Disc0s.Name = "Disc0"
-Disc0s.Parent = LoadingFrame
-Disc0s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Disc0s.Visible = false
+Disc0s.Parent = Frame
+Disc0s.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 Disc0s.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 Disc0s.Size = UDim2.new(0, 89, 0, 31)
-Disc0s.Image = "rbxassetid://3570695787"
-Disc0s.ImageColor3 = Color3.fromRGB(35, 35, 35)
-
+Disc0s.Font = Enum.Font.GothamBold
+Disc0s.Text = "HINT"
+Disc0s.TextColor3 = Color3.fromRGB(0, 0, 0)
+Disc0s.TextScaled = true
+Disc0s.TextSize = 14.000
+Disc0s.TextWrapped = true
+Disc0s.MouseButton1Down:connect(function()
+local h = Instance.new("Hint")
+h.Text = ""
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "T"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TE"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEA"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K0"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00P"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PK"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKI"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKID"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD J"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JO"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOI"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN T"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TO"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TOD"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TODA"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TODAY"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TODAY!"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TODAY"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TODA"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TOD"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN TO"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN T"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOIN"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JOI"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD JO"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD J"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD J"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKIDD"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKID"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PKI"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00PK"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00P"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K00"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K0"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM K"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEAM"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TEA"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "TE"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = "T"
+h.Parent = workspace
+wait(0.1)
+local h = Instance.new("Hint")
+h.Text = ""
+h.Parent = workspace
+wait(0.1)
+h:Remove()
+end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
 e2006Theme.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
