@@ -726,7 +726,6 @@ Disc0s.Name = "Disc0"
 Disc0s.Parent = LoadingFrame
 Disc0s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Disc0s.Visible = false
-Disc0s.BackgroundTransparency = 1.000
 Disc0s.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 Disc0s.Size = UDim2.new(0, 89, 0, 31)
 Disc0s.Image = "rbxassetid://3570695787"
