@@ -12,6 +12,7 @@ local DS = Instance.new("TextButton")
 local ARS = Instance.new("TextButton")
 local DSS = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
+local e1x1x1x1Laughs = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
 local DayToNights = Instance.new("TextButton")
 local e666 = Instance.new("TextButton")
@@ -203,6 +204,23 @@ e1x1x1x1Laugh.MouseButton1Down:connect(function()
 			Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
 			Counter += 0.01
 		end
+end)
+e1x1x1x1Laughs.Name = "e1x1x1x1Laugh"
+e1x1x1x1Laughs.Parent = Frame
+e1x1x1x1Laughs.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+e1x1x1x1Laughs.Visible = false
+e1x1x1x1Laughs.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
+e1x1x1x1Laughs.Size = UDim2.new(0, 79, 0, 34)
+e1x1x1x1Laughs.Font = Enum.Font.GothamBold
+e1x1x1x1Laughs.Text = "ChatSpam"
+e1x1x1x1Laughs.TextColor3 = Color3.fromRGB(0, 0, 0)
+e1x1x1x1Laughs.TextScaled = true
+e1x1x1x1Laughs.TextSize = 14.000
+e1x1x1x1Laughs.TextWrapped = true
+e1x1x1x1Laughs.MouseButton1Down:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do 
+game:GetService("Chat"):Chat(v.Character.Head,"TEAM JKLO JOIN TODAY!") 
+end
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
@@ -550,6 +568,7 @@ ARS.Visible = true
 a666.Visible = true
 DayToNights.Visible = true
 Disc0s.Visible = true
+e1x1x1x1Laughs.Visible = true
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
@@ -580,6 +599,7 @@ ARS.Visible = false
 a666.Visible = false
 DayToNights.Visible = false
 Disc0s.Visible = false
+e1x1x1x1Laughs.Visible = false
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
 DS.Visible = true
