@@ -18,7 +18,7 @@ local e666 = Instance.new("TextButton")
 local a666 = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
-local Disc0s = Instance.new("ImageLabel")
+local Disc0s = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
 
