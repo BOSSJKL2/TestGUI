@@ -124,17 +124,39 @@ ARS.Visible = false
 ARS.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 ARS.Size = UDim2.new(0, 79, 0, 31)
 ARS.Font = Enum.Font.GothamBold
-ARS.Text = "MSG"
+ARS.Text = "k00pz PARTICLES"
 ARS.TextColor3 = Color3.fromRGB(0, 0, 0)
 ARS.TextScaled = true
 ARS.TextSize = 14.000
 ARS.TextWrapped = true
 ARS.MouseButton1Down:connect(function()
+local ID = 15511150536 -- Change your ID here fellas cXz (Image ID)
+ local particle = true
 
-local msg = Instance.new("Message",workspace)
-		msg.Text = "TEAM JKLO,JO1TAR0,K00PZKIDD Is Destroying!!!"
-		wait(3)
-		msg:Destroy()
+-- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
+
+if particle == true then
+	for i,v in pairs (game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			local particle = Instance.new("ParticleEmitter")
+			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+			particle.Parent = v
+			particle.Rate = 200
+			for i,x in pairs (game.Workspace:GetChildren()) do
+				if x:IsA("Model") then
+					for i,z in pairs (x:GetChildren()) do
+						if z:IsA("Part") then
+							local particle2 = Instance.new("ParticleEmitter")
+							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+							particle2.Parent = z
+							particle2.Rate = 200
+						end
+					end
+				end
+			end
+		end
+	end
+end
 end)
 DSS.Name = "decalspam"
 DSS.Parent = Frame
