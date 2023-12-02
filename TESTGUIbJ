@@ -692,6 +692,7 @@ DayToNights.Visible = true
 Disc0s.Visible = true
 e1x1x1x1Laughs.Visible = true
 EpicSaxGuys.Visible = true
+Name.Text = (""..game.Players.LocalPlayer.DisplayName)
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
