@@ -289,11 +289,11 @@ ImageLabel_2.Size = UDim2.new(1, 0, 1, 0)
 ImageLabel_2.Visible = false
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=9018233362"
 game:GetService("TeleportService"):Teleport(12476784915)
-wait(3)
+wait()
 k00p = Instance.new("Sound", game.Workspace)
 		k00p.Name = "k00p's Sound"
-		k00p.SoundId = "rbxassetid://8894394467"
-		k00p.Volume = 10
+		k00p.SoundId = "rbxassetid://1847661821"
+		k00p.Volume = 9e9
         k00p.Pitch = 0.85
 		k00p:Play()
 end)
