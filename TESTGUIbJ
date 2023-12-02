@@ -37,7 +37,6 @@ Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
 Frame.Size = UDim2.new(0, 378, 0, 250)
-Frame.Image = "rbxassetid://9018233362"
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
