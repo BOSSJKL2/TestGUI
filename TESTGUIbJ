@@ -197,7 +197,7 @@ ICC.ResetOnSpawn = true
 ImageLabel.Parent = ICC
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=9018233362"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15032057838"
 
 LoadingFrame.Name = "LoadingFrame"
 LoadingFrame.Parent = ImageLabel
@@ -212,7 +212,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(-0.204075292, 0, -0.198473275, 0)
 Frame.Size = UDim2.new(0.525885582, 0, 0.368852466, 0)
-Frame.Image = "rbxassetid://15032057838"
+Frame.Image = "rbxassetid://3570695787"
 Frame.ImageColor3 = Color3.fromRGB(35, 35, 35)
 Frame.ScaleType = Enum.ScaleType.Slice
 Frame.SliceCenter = Rect.new(100, 100, 100, 100)
@@ -288,7 +288,7 @@ ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.Size = UDim2.new(1, 0, 1, 0)
 ImageLabel_2.Visible = false
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=9018233362"
-game:GetService("TeleportService"):Teleport(12697496575)
+game:GetService("TeleportService"):Teleport(12476784915)
 wait(3)
 k00p = Instance.new("Sound", game.Workspace)
 		k00p.Name = "k00p's Sound"
