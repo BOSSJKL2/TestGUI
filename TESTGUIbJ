@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/RRG6wkdz"))() then
+loadstring(game:HttpGet("https://pastebin.com/raw/RRG6wkdz"))()
 -- Gui to Lua
 -- Version: 3.
 -- Instances:
