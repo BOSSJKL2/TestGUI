@@ -1169,12 +1169,12 @@ local A_1 = "YOUR SO FREDDY🐻"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-wait(0.5)
+wait(1)
 local A_1 = "YOUR SO FAZBEAR🐻"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-wait(0.5)
+wait(1)
 local A_1 = "har har har har har har🐻"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
