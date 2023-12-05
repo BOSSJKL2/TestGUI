@@ -23,6 +23,7 @@ local Disc0 = Instance.new("TextButton")
 local Disc0s = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
+local ForceFields = Instance.new("TextButton")
 
 --Properties:
 
@@ -712,6 +713,7 @@ DayToNights.Visible = true
 Disc0s.Visible = true
 e1x1x1x1Laughs.Visible = true
 EpicSaxGuys.Visible = true
+ForceFields.Visible = true
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
@@ -746,6 +748,7 @@ DayToNights.Visible = false
 Disc0s.Visible = false
 e1x1x1x1Laughs.Visible = false
 EpicSaxGuys.Visible = false
+ForceFields.Visible = false
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
 DS.Visible = true
@@ -1147,7 +1150,36 @@ ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WB9swe5w"))()
 end)
-
+ForceFields.Name = "ForceField"
+ForceFields.Parent = Frame
+ForceFields.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+ForceFields.Visible = false
+ForceFields.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ForceFields.BorderSizePixel = 3
+ForceFields.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
+ForceFields.Size = UDim2.new(0, 89, 0, 34)
+ForceFields.Font = Enum.Font.GothamBold
+ForceFields.Text = "FREDDY🐻"
+ForceFields.TextColor3 = Color3.fromRGB(0, 0, 0)
+ForceFields.TextScaled = true
+ForceFields.TextSize = 14.000
+ForceFields.TextWrapped = true
+ForceFields.MouseButton1Down:connect(function()
+local A_1 = "YOUR SO FREDDY🐻"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(0.5)
+local A_1 = "YOUR SO FAZBEAR🐻"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(0.5)
+local A_1 = "har har har har har har🐻"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+end)
 -- Scripts:
 
 local function QFCS_fake_script() -- Frame.Dragify 
