@@ -22,6 +22,7 @@ local EpicSaxGuys = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local Disc0s = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
+local e2006Themes = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
 local ForceFields = Instance.new("TextButton")
 
@@ -714,6 +715,7 @@ Disc0s.Visible = true
 e1x1x1x1Laughs.Visible = true
 EpicSaxGuys.Visible = true
 ForceFields.Visible = true
+e2006Themes.Visible = true
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
@@ -749,6 +751,7 @@ Disc0s.Visible = false
 e1x1x1x1Laughs.Visible = false
 EpicSaxGuys.Visible = false
 ForceFields.Visible = false
+e2006Themes.Visible = false
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
 DS.Visible = true
@@ -1133,6 +1136,24 @@ Event:FireServer(A_1, A_2)
 
 wait(1)	
 
+end)
+e2006Themes.Name = "e2006Theme"
+e2006Themes.Parent = Frame
+e2006Themes.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+e2006Themes.BorderColor3 = Color3.fromRGB(255, 255, 255)
+e2006Themes.BorderSizePixel = 3
+e2006Themes.Visible = false
+e2006Themes.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
+e2006Themes.Size = UDim2.new(0, 89, 0, 31)
+e2006Themes.Font = Enum.Font.GothamBold
+e2006Themes.Text = "TOXICGAMES"
+e2006Themes.TextColor3 = Color3.fromRGB(0, 0, 0)
+e2006Themes.TextScaled = true
+e2006Themes.TextSize = 14.000
+e2006Themes.TextWrapped = true
+e2006Themes.MouseButton1Down:connect(function()
+	--Made by Servano
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Ability-Wars/main/TOXICGAMES  SS"))() 
 end)
 ForceField.Name = "ForceField"
 ForceField.Parent = Frame
