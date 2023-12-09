@@ -24,7 +24,7 @@ local Disc0s = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local e2006Themes = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
-local ForceFields = Instance.new("TextButton")
+local ForceFields = Instance.new("TextBox")
 
 --Properties:
 
@@ -1146,14 +1146,18 @@ e2006Themes.Visible = false
 e2006Themes.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
 e2006Themes.Size = UDim2.new(0, 89, 0, 31)
 e2006Themes.Font = Enum.Font.GothamBold
-e2006Themes.Text = "TOXICGAMES"
+e2006Themes.Text = "CHAT 👇"
 e2006Themes.TextColor3 = Color3.fromRGB(0, 0, 0)
 e2006Themes.TextScaled = true
 e2006Themes.TextSize = 14.000
 e2006Themes.TextWrapped = true
 e2006Themes.MouseButton1Down:connect(function()
 	--Made by Servano
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Ability-Wars/main/TOXICGAMES  SS"))() 
+local A_1   = JKLO_TEAM!!"                                                                                                                                              ".. ForceFields.Text..😡"
+		local A_2   = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+		print("Sent fake message.")
 end)
 ForceField.Name = "ForceField"
 ForceField.Parent = Frame
@@ -1180,27 +1184,12 @@ ForceFields.BorderSizePixel = 3
 ForceFields.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceFields.Size = UDim2.new(0, 89, 0, 34)
 ForceFields.Font = Enum.Font.GothamBold
-ForceFields.Text = "FREDDY🐻"
+ForceFields.Text = "TEXT HERE 👆"
 ForceFields.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceFields.TextScaled = true
 ForceFields.TextSize = 14.000
 ForceFields.TextWrapped = true
-ForceFields.MouseButton1Down:connect(function()
-local A_1 = "YOUR SO FREDDY🐻"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(1)
-local A_1 = "YOUR SO FAZBEAR🐻"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(1)
-local A_1 = "har har har har har har🐻"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-end)
+
 -- Scripts:
 
 local function QFCS_fake_script() -- Frame.Dragify 
