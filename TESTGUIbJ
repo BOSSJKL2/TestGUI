@@ -23,6 +23,7 @@ local Disc0 = Instance.new("TextButton")
 local Disc0s = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local e2006Themes = Instance.new("TextButton")
+local E2006THEMES = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
 local ForceFields = Instance.new("TextButton")
 
@@ -952,143 +953,107 @@ h.Text = "TEAM"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K"
+h.Text = "TEAM J"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K0"
+h.Text = "TEAM JK"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00"
+h.Text = "TEAM JKL"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00P"
+h.Text = "TEAM JKLO"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PK"
+h.Text = "TEAM JKLO J"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKI"
+h.Text = "TEAM JKLO JO"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKID"
+h.Text = "TEAM JKLO JOI"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD"
+h.Text = "TEAM JKLO JOIN"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD J"
+h.Text = "TEAM JKLO JOIN T"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JO"
+h.Text = "TEAM JKLO JOIN TO"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOI"
+h.Text = "TEAM JKLO JOIN TOD"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN"
+h.Text = "TEAM JKLO JOIN TODA"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN T"
+h.Text = "TEAM JKLO JOIN TODAY"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TO"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TOD"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TODA"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TODAY"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TODAY!"
+h.Text = "TEAM JKLO JOIN TODAY!"
 h.Parent = workspace
 wait(7)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TODA"
+h.Text = "TEAM JKLO JOIN TODA"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TOD"
+h.Text = "TEAM JKLO JOIN TOD"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN TO"
+h.Text = "TEAM JKLO JOIN TO"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN T"
+h.Text = "TEAM JKLO JOIN T"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOIN"
+h.Text = "TEAM JKLO JOIN"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JOI"
+h.Text = "TEAM JKLO JOI"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD JO"
+h.Text = "TEAM JKLO JO"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD J"
+h.Text = "TEAM JKLO J"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD J"
+h.Text = "TEAM JKLO"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKIDD"
+h.Text = "TEAM JKL"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKID"
+h.Text = "TEAM JK"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
-h.Text = "TEAM K00PKI"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00PK"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00P"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K00"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K0"
-h.Parent = workspace
-wait(0.1)
-local h = Instance.new("Hint")
-h.Text = "TEAM K"
+h.Text = "TEAM J"
 h.Parent = workspace
 wait(0.1)
 local h = Instance.new("Hint")
@@ -1111,7 +1076,9 @@ local h = Instance.new("Hint")
 h.Text = ""
 h.Parent = workspace
 wait(0.1)
-h:Remove()
+local h = Instance.new("Hint")
+h.Text = ""
+h.Parent = workspace
 end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
@@ -1161,18 +1128,34 @@ s = Instance.new("Sky")
 		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
                 s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
                 s.Parent = game.Lighting
-		
+wait()
+DayToNights.Visible = true
+wait()
 end)
-e2006Themes.MouseButton2Down:connect(function()
+E2006THEMES.Name = "e2006Theme"
+E2006THEMES.Parent = Frame
+E2006THEMES.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+E2006THEMES.BorderColor3 = Color3.fromRGB(255, 255, 255)
+E2006THEMES.BorderSizePixel = 3
+E2006THEMES.Visible = false
+E2006THEMES.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
+E2006THEMES.Size = UDim2.new(0, 89, 0, 31)
+E2006THEMES.Font = Enum.Font.GothamBold
+E2006THEMES.Text = "SKY SPAM"
+E2006THEMES.TextColor3 = Color3.fromRGB(0, 0, 0)
+E2006THEMES.TextScaled = true
+E2006THEMES.TextSize = 14.000
+E2006THEMES.TextWrapped = true
+E2006THEMES.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
-		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
+                s.Parent = game.Lighting
 		
 end)
 ForceField.Name = "ForceField"
