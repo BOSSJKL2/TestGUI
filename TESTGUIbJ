@@ -780,7 +780,29 @@ EpicSaxGuy.TextSize = 14.000
 EpicSaxGuy.TextWrapped = true
 EpicSaxGuy.MouseButton1Down:connect(function()
     -- Made by Boss
-loadstring(game:HttpGet("https://pastebin.com/raw/9VnGLSmq"))()
+for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name ~= me and not v.PlayerGui:FindFirstChild("k00pkidd's Jumpscare") and v:FindFirstChild("PlayerGui") then
+			spawn(function()
+				local newgui = Instance.new("ScreenGui",v.PlayerGui)
+				newgui.Name = "k00p's Jumpscare"
+				local newimage = Instance.new("ImageLabel",newgui)
+				newimage.Image = "http://www.roblox.com/Asset/?id=15573950094"
+				newimage.Size = UDim2.new(1,1,1,1)
+                                newimage.BackgroundTransparency = 1
+				local s = Instance.new("Sound",newgui)
+				s.SoundId = "rbxassetid://8683380188"
+				s.Volume = 9e9
+				s.Looped = true
+				s:Play()
+				print("Screamed "..v.Name)
+				while wait(9) do
+
+					newimage.Parent:Destroy()
+
+				end
+			end)
+		end
+	end
 end)
 EpicSaxGuys.Name = "EpicSaxGuy"
 EpicSaxGuys.Parent = Frame
@@ -791,15 +813,23 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "HEAL"
+EpicSaxGuys.Text = "FIRE RAININING"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
-EpicSaxGuys.MouseButton1Down:connect(function()
-    -- Made by Boss
-				
-game.Players.LocalPlayer.Character.Humanoid.Health = 100
+EpicSaxGuys.MouseButton1Down:connect(function()		
+while true do
+		part = Instance.new("Part")
+		part.Position =  Vector3.new(math.random(-500,500),math.random(1,500),math.random(-500,500))
+		part.Parent = game.Workspace
+		part.BrickColor = BrickColor.new("green")
+		fire = Instance.new("Fire")
+		fire.Size = 75
+		fire.Parent = part
+        part.Anchored = false
+        wait(0.5)
+	end
 end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
@@ -1122,12 +1152,12 @@ e2006Themes.TextWrapped = true
 e2006Themes.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=201208408"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=201208408"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=201208408"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=201208408"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=201208408"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=201208408"
                 s.Parent = game.Lighting
 wait()
 E2006THEMES.Visible = true
