@@ -84,24 +84,22 @@ AR.BorderSizePixel = 3
 AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 AR.Size = UDim2.new(0, 79, 0, 31)
 AR.Font = Enum.Font.GothamBold
-AR.Text = "k00pzkidd Sky"
+AR.Text = "NOTIFICATION"
 AR.TextColor3 = Color3.fromRGB(0, 0, 0)
 AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
-
-s = Instance.new("Sky")
-		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
-		s.Parent = game.Lighting
-		
-	end)
+while true do 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "team JKLO",
+        Text = "JOIN TEAM JKLO TODAY!",
+        Icon = "http://www.roblox.com/asset/?id=15487393092",
+        Callback = Function
+    })
+    wait(1)
+end
+end)
 DS.Name = "decalspam"
 DS.Parent = Frame
 DS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -1181,12 +1179,12 @@ E2006THEMES.TextWrapped = true
 E2006THEMES.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15573950094"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15573950094"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15573950094"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15487393092"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15487393092"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15487393092"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15487393092"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15487393092"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15487393092"
                 s.Parent = game.Lighting
 wait()
 E2006THEMES.Visible = false
