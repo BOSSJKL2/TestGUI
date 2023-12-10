@@ -1150,12 +1150,12 @@ E2006THEMES.TextWrapped = true
 E2006THEMES.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15396294306"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15396294306"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15396294306"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=11588317701"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=11588317701"
+                s.SkyboxUp = "http://www.roblox.com/asset/?id=11588317701"
                 s.Parent = game.Lighting
 wait()
 E2006THEMES.Visible = false
