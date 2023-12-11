@@ -6,11 +6,14 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Credits = Instance.new("TextButton")
+local CREDITS = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
 local AR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
 local ARS = Instance.new("TextButton")
 local DSS = Instance.new("TextButton")
+local ars = Instance.new("TextButton")
+local dss = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
 local e1x1x1x1Laughs = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
@@ -49,20 +52,56 @@ Credits.BorderSizePixel = 3
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "🔥c00l MUSIC Verry Loud Music Guys By BossJKLO"
+Credits.Text = "MUSIC"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
 Credits.MouseButton1Down:connect(function()
-
-Spooky = Instance.new("Sound", game.Workspace)
-		Spooky.Name = "Spooky"
-		Spooky.SoundId = "rbxassetid://6942391979"
-		Spooky.Volume = 6e9
-                Spooky.Pitch = 1.1
-		Spooky.Looped = true
-		Spooky:Play()
+ars.Visible = true
+dss.Visible = true
+CREDITS.Visible = true
+Credits.Visible = false
+DayToNight.Visible = false
+e1x1x1x1Laugh.Visible = false
+DS.Visible = false
+AR.Visible = false
+ForceField.Visible = false
+e2006Theme.Visible = false
+Disc0.Visible = false
+EpicSaxGuy.Visible = false
+e666.Visible = false
+wait(0.2)
+end)
+CREDITS.Name = "Credits"
+CREDITS.Parent = Frame
+CREDITS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+CREDITS.Visible = false
+CREDITS.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CREDITS.BorderSizePixel = 3
+CREDITS.Position = UDim2.new(0, 0, 0.912, 0)
+CREDITS.Size = UDim2.new(0, 378, 0, 22)
+CREDITS.Font = Enum.Font.GothamBold
+CREDITS.Text = "BACK"
+CREDITS.TextColor3 = Color3.fromRGB(0, 0, 0)
+CREDITS.TextScaled = true
+CREDITS.TextSize = 14.000
+CREDITS.TextWrapped = true
+CREDITS.MouseButton1Down:connect(function()
+ars.Visible = false
+dss.Visible = false
+CREDITS.Visible = false
+Credits.Visible = true
+DayToNight.Visible = true
+e1x1x1x1Laugh.Visible = true
+DS.Visible = true
+AR.Visible = true
+ForceField.Visible = true
+e2006Theme.Visible = true
+Disc0.Visible = true
+EpicSaxGuy.Visible = true
+e666.Visible = true
+wait(0.2)
 end)
 Name.Name = "Name"
 Name.Parent = Frame
@@ -368,6 +407,52 @@ k00p = Instance.new("Sound", game.Workspace)
 		k00p.Volume = 9e9
         k00p.Pitch = 0.85
 		k00p:Play()
+end)
+ars.Name = "autoreport"
+ars.Parent = Frame
+ars.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+ars.Visible = false
+ars.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ars.BorderSizePixel = 3
+ars.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
+ars.Size = UDim2.new(0, 79, 0, 31)
+ars.Font = Enum.Font.GothamBold
+ars.Text = "c00l music"
+ars.TextColor3 = Color3.fromRGB(0, 0, 0)
+ars.TextScaled = true
+ars.TextSize = 14.000
+ars.TextWrapped = true
+ars.MouseButton1Down:connect(function()
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://6942391979"
+		Spooky.Volume = 6e9
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
+end)
+dss.Name = "decalspam"
+dss.Parent = Frame
+dss.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+dss.BorderColor3 = Color3.fromRGB(255, 255, 255)
+dss.BorderSizePixel = 3
+dss.Visible = false
+dss.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
+dss.Size = UDim2.new(0, 79, 0, 31)
+dss.Font = Enum.Font.GothamBold
+dss.Text = "DIP MUDIC"
+dss.TextColor3 = Color3.fromRGB(0, 0, 0)
+dss.TextScaled = true
+dss.TextSize = 14.000
+dss.TextWrapped = true
+dss.MouseButton1Down:connect(function()
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://6695430066"
+		Spooky.Volume = 6e9
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
 e1x1x1x1Laugh.Parent = Frame
@@ -775,6 +860,8 @@ e1x1x1x1Laughs.Visible = true
 EpicSaxGuys.Visible = true
 ForceFields.Visible = true
 e2006Themes.Visible = true
+ars.Visible = false
+dss.Visible = false
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
