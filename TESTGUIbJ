@@ -18,6 +18,7 @@ local e1x1x1x1Laugh = Instance.new("TextButton")
 local e1x1x1x1Laughs = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
 local DayToNights = Instance.new("TextButton")
+local daytonights = Instance.new("TextButton")
 local e666 = Instance.new("TextButton")
 local a666 = Instance.new("TextButton")
 local EpicSaxGuy = Instance.new("TextButton")
@@ -60,6 +61,7 @@ Credits.TextWrapped = true
 Credits.MouseButton1Down:connect(function()
 ars.Visible = true
 dss.Visible = true
+daytonights.Visible = true
 CREDITS.Visible = true
 Credits.Visible = false
 DayToNight.Visible = false
@@ -91,6 +93,7 @@ CREDITS.MouseButton1Down:connect(function()
 ars.Visible = false
 dss.Visible = false
 CREDITS.Visible = false
+daytonights.Visible = false
 Credits.Visible = true
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
@@ -447,7 +450,7 @@ dss.TextSize = 14.000
 dss.TextWrapped = true
 dss.MouseButton1Down:connect(function()
 Spooky = Instance.new("Sound", game.Workspace)
-		Spooky.Name = "Spooky"
+		Spooky.Name = "real's theme"
 		Spooky.SoundId = "rbxassetid://6695430066"
 		Spooky.Volume = 6e9
                 Spooky.Pitch = 1.1
@@ -836,6 +839,28 @@ while true do
     wait(0.25)
 end
 end)
+daytonights.Name = "DayToNight"
+daytonights.Parent = Frame
+daytonights.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+daytonights.BorderColor3 = Color3.fromRGB(255, 255, 255)
+daytonights.BorderSizePixel = 3
+daytonights.Visible = false
+daytonights.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
+daytonights.Size = UDim2.new(0, 83, 0, 31)
+daytonights.Font = Enum.Font.GothamBold
+daytonights.Text = "BLOOD POP"
+daytonights.TextColor3 = Color3.fromRGB(0, 0, 0)
+daytonights.TextScaled = true
+daytonights.TextSize = 14.000
+daytonights.TextWrapped = true
+daytonights.MouseButton1Down:connect(function()
+real's theme = Instance.new("Sound", game.Workspace)
+		real's theme.Name = "real's theme"
+		real's theme.SoundId = "rbxassetid://6783714255"
+		real's theme.Volume = 9e9
+        real's theme.Pitch = 0.85
+		real's theme:Play()
+end)
 e666.Name = "e666"
 e666.Parent = Frame
 e666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -864,6 +889,7 @@ Credits.Visible = false
 CREDITS.Visible = false
 ars.Visible = false
 dss.Visible = false
+daytonights.Visible = false
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
 DS.Visible = false
