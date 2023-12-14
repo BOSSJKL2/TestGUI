@@ -526,7 +526,7 @@ e1x1x1x1laughs.TextSize = 14.000
 e1x1x1x1laughs.TextWrapped = true
 e1x1x1x1laughs.MouseButton1Down:connect(function()
 Spooky = Instance.new("Sound", game.Workspace)
-		Spooky.Name = "real's theme"
+		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://58479849"
 		Spooky.Volume = 6e9
                 Spooky.Pitch = 1.1
@@ -880,12 +880,12 @@ daytonights.TextScaled = true
 daytonights.TextSize = 14.000
 daytonights.TextWrapped = true
 daytonights.MouseButton1Down:connect(function()
-real's theme = Instance.new("Sound", game.Workspace)
-		real's theme.Name = "real's theme"
-		real's theme.SoundId = "rbxassetid://6783714255"
-		real's theme.Volume = 9e9
-        real's theme.Pitch = 0.85
-		real's theme:Play()
+k00p = Instance.new("Sound", game.Workspace)
+		k00p.Name = "real's theme"
+		k00p.SoundId = "rbxassetid://6783714255"
+		k00p.Volume = 9e9
+        k00p.Pitch = 0.85
+		k00p:Play()
 end)
 e666.Name = "e666"
 e666.Parent = Frame
