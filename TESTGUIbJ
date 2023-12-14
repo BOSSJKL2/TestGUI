@@ -16,6 +16,7 @@ local ars = Instance.new("TextButton")
 local dss = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
 local e1x1x1x1Laughs = Instance.new("TextButton")
+local e1x1x1x1laughs = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
 local DayToNights = Instance.new("TextButton")
 local daytonights = Instance.new("TextButton")
@@ -62,6 +63,7 @@ Credits.MouseButton1Down:connect(function()
 ars.Visible = true
 dss.Visible = true
 daytonights.Visible = true
+e1x1x1x1laughs.Visible = true
 CREDITS.Visible = true
 Credits.Visible = false
 DayToNight.Visible = false
@@ -94,6 +96,7 @@ ars.Visible = false
 dss.Visible = false
 CREDITS.Visible = false
 daytonights.Visible = false
+e1x1x1x1laughs.Visible = false
 Credits.Visible = true
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
@@ -506,6 +509,29 @@ e1x1x1x1Laughs.MouseButton1Down:connect(function()
 for i,v in pairs(game.Players:GetChildren()) do 
 game:GetService("Chat"):Chat(v.Character.Head,"TEAM JKLO JOIN TODAY!") 
 end
+end)
+e1x1x1x1laughs.Name = "e1x1x1x1Laugh"
+e1x1x1x1laughs.Parent = Frame
+e1x1x1x1laughs.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+e1x1x1x1laughs.BorderColor3 = Color3.fromRGB(255, 255, 255)
+e1x1x1x1laughs.BorderSizePixel = 3
+e1x1x1x1laughs.Visible = false
+e1x1x1x1laughs.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
+e1x1x1x1laughs.Size = UDim2.new(0, 79, 0, 34)
+e1x1x1x1laughs.Font = Enum.Font.GothamBold
+e1x1x1x1laughs.Text = "KEVIN MACLEOD AUDIO"
+e1x1x1x1laughs.TextColor3 = Color3.fromRGB(0, 0, 0)
+e1x1x1x1laughs.TextScaled = true
+e1x1x1x1laughs.TextSize = 14.000
+e1x1x1x1laughs.TextWrapped = true
+e1x1x1x1laughs.MouseButton1Down:connect(function()
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "real's theme"
+		Spooky.SoundId = "rbxassetid://58479849"
+		Spooky.Volume = 6e9
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
