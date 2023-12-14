@@ -881,7 +881,7 @@ daytonights.TextSize = 14.000
 daytonights.TextWrapped = true
 daytonights.MouseButton1Down:connect(function()
 k00p = Instance.new("Sound", game.Workspace)
-		k00p.Name = "real's theme"
+		k00p.Name = "k00p"
 		k00p.SoundId = "rbxassetid://6783714255"
 		k00p.Volume = 9e9
         k00p.Pitch = 0.85
