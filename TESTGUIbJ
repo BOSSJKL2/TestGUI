@@ -153,13 +153,13 @@ DS.BorderSizePixel = 3
 DS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DS.Size = UDim2.new(0, 79, 0, 31)
 DS.Font = Enum.Font.GothamBold
-DS.Text = "k00pkiddify"
+DS.Text = "realify"
 DS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DS.TextScaled = true
 DS.TextSize = 14.000
 DS.TextWrapped = true
 DS.MouseButton1Down:connect(function()
-local ID = 11379488396
+local ID = 15630637132
 local particle = true
 
 -- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
@@ -188,11 +188,11 @@ if particle == true then
 end
 wait()
 sky = Instance.new("Sky",game:GetService("Lighting"))
-sky.SkyboxBk = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxFt = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxLf = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxRt = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxUp = "http://www.roblox.com/asset/?id=11379488396"
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=15630637132"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=15630637132"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=15630637132"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=15630637132"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=15630637132"
 wait()
 local ID = 11379488396 --id here
 function spamDecal(v)
