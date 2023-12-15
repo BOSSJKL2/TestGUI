@@ -788,14 +788,12 @@ DayToNights.TextSize = 14.000
 DayToNights.TextWrapped = true
 DayToNights.MouseButton1Down:connect(function()
 for i,v in pairs(game.Players:GetPlayers()) do
-while true do
-       wait(0.4)
+wait(0.4)
 local kill = Instance.new("ScreenGui",v.PlayerGui)
 local kill2 = Instance.new("ImageLabel ,kill)
 kill2.Size = UDim2.new(0.400.0.345)
 kill2 Position = Udim2.new(D,math.random(1,100 .0.math.random(1. 1000))
 kill2.Image = "rbxassetid://15573950094"
-    end
   end
 end)
 daytonights.Name = "DayToNight"
