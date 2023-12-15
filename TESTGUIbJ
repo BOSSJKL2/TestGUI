@@ -115,7 +115,7 @@ Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Name.BackgroundTransparency = 1.000
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "SHOW👑CASE"
+Name.Text = "b00sjkidd gui👑2.72"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -153,13 +153,13 @@ DS.BorderSizePixel = 3
 DS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DS.Size = UDim2.new(0, 79, 0, 31)
 DS.Font = Enum.Font.GothamBold
-DS.Text = "realify"
+DS.Text = "k00pkiddify"
 DS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DS.TextScaled = true
 DS.TextSize = 14.000
 DS.TextWrapped = true
 DS.MouseButton1Down:connect(function()
-local ID = 15630705973
+local ID = 11379488396
 local particle = true
 
 -- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
@@ -188,11 +188,11 @@ if particle == true then
 end
 wait()
 sky = Instance.new("Sky",game:GetService("Lighting"))
-sky.SkyboxBk = "http://www.roblox.com/asset/?id=15630705973"
-sky.SkyboxFt = "http://www.roblox.com/asset/?id=15630705973"
-sky.SkyboxLf = "http://www.roblox.com/asset/?id=15630705973"
-sky.SkyboxRt = "http://www.roblox.com/asset/?id=15630705973"
-sky.SkyboxUp = "http://www.roblox.com/asset/?id=15630705973"
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=11379488396"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=11379488396"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=11379488396"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=11379488396"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=11379488396"
 wait()
 local ID = 11379488396 --id here
 function spamDecal(v)
@@ -519,17 +519,19 @@ e1x1x1x1laughs.Visible = false
 e1x1x1x1laughs.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
 e1x1x1x1laughs.Size = UDim2.new(0, 79, 0, 34)
 e1x1x1x1laughs.Font = Enum.Font.GothamBold
-e1x1x1x1laughs.Text = "STOP ALL SOUNDS"
+e1x1x1x1laughs.Text = "KEVIN MACLEOD AUDIO"
 e1x1x1x1laughs.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1laughs.TextScaled = true
 e1x1x1x1laughs.TextSize = 14.000
 e1x1x1x1laughs.TextWrapped = true
 e1x1x1x1laughs.MouseButton1Down:connect(function()
-    for i,v in pairs(workspace:GetDescendants()) do
-        if v:IsA("Sound") then
-            v.Playing = false
-        end
-    end
+Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://58479849"
+		Spooky.Volume = 6e9
+                Spooky.Pitch = 1.1
+		Spooky.Looped = true
+		Spooky:Play()
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
@@ -781,20 +783,87 @@ DayToNights.Visible = false
 DayToNights.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
 DayToNights.Size = UDim2.new(0, 83, 0, 31)
 DayToNights.Font = Enum.Font.GothamBold
-DayToNights.Text = "POPUP"
+DayToNights.Text = "k00pz SkyBox"
 DayToNights.TextColor3 = Color3.fromRGB(0, 0, 0)
 DayToNights.TextScaled = true
 DayToNights.TextSize = 14.000
 DayToNights.TextWrapped = true
 DayToNights.MouseButton1Down:connect(function()
-for i,v in pairs(game.Players:GetPlayers()) do
-wait(0.4)
-local kill = Instance.new("ScreenGui",v.PlayerGui)
-local kill2 = Instance.new("ImageLabel ,kill)
-kill2.Size = UDim2.new(0.400.0.345)
-kill2 Position = Udim2.new(D,math.random(1,100 .0.math.random(1. 1000))
-kill2.Image = "rbxassetid://15573950094"
-  end
+imageOne = "http://www.roblox.com/asset/?id=9422866248"
+imageTwo = "http://www.roblox.com/asset/?id=11588317701"
+imageThree = "http://www.roblox.com/asset/?id=9422866248"
+imageFour = "http://www.roblox.com/asset/?id=11588317701"
+imageFive = "http://www.roblox.com/asset/?id=9422866248"
+imageSix = "http://www.roblox.com/asset/?id=11588317701"
+imageSeven = "http://www.roblox.com/asset/?id=9422866248"
+imageEight = "http://www.roblox.com/asset/?id=11588317701"
+
+Sky = Instance.new("Sky", game.Lighting)
+Sky.SkyboxBk = imageOne
+Sky.SkyboxDn = imageOne
+Sky.SkyboxFt = imageOne
+Sky.SkyboxLf = imageOne
+Sky.SkyboxRt = imageOne
+Sky.SkyboxUp = imageOne
+
+while true do
+    Sky.SkyboxBk = imageOne
+    Sky.SkyboxDn = imageOne
+    Sky.SkyboxFt = imageOne
+    Sky.SkyboxLf = imageOne
+    Sky.SkyboxRt = imageOne
+    Sky.SkyboxUp = imageOne
+    wait(0.25)
+    Sky.SkyboxBk = imageTwo
+    Sky.SkyboxDn = imageTwo
+    Sky.SkyboxFt = imageTwo
+    Sky.SkyboxLf = imageTwo
+    Sky.SkyboxRt = imageTwo
+    Sky.SkyboxUp = imageTwo
+    wait(0.25)
+    Sky.SkyboxBk = imageThree
+    Sky.SkyboxDn = imageThree
+    Sky.SkyboxFt = imageThree
+    Sky.SkyboxLf = imageThree
+    Sky.SkyboxRt = imageThree
+    Sky.SkyboxUp = imageThree
+    wait(0.25)
+    Sky.SkyboxBk = imageFour
+    Sky.SkyboxDn = imageFour
+    Sky.SkyboxFt = imageFour
+    Sky.SkyboxLf = imageFour
+    Sky.SkyboxRt = imageFour
+    Sky.SkyboxUp = imageFour
+    wait(0.25)
+    Sky.SkyboxBk = imageFive
+    Sky.SkyboxDn = imageFive
+    Sky.SkyboxFt = imageFive
+    Sky.SkyboxLf = imageFive
+    Sky.SkyboxRt = imageFive
+    Sky.SkyboxUp = imageFive
+    wait(0.25)
+    Sky.SkyboxBk = imageSix
+    Sky.SkyboxDn = imageSix
+    Sky.SkyboxFt = imageSix
+    Sky.SkyboxLf = imageSix
+    Sky.SkyboxRt = imageSix
+    Sky.SkyboxUp = imageSix
+    wait(0.25)
+    Sky.SkyboxBk = imageSeven
+    Sky.SkyboxDn = imageSeven
+    Sky.SkyboxFt = imageSeven
+    Sky.SkyboxLf = imageSeven
+    Sky.SkyboxRt = imageSeven
+    Sky.SkyboxUp = imageSeven
+    wait(0.25)
+    Sky.SkyboxBk = imageEight
+    Sky.SkyboxDn = imageEight
+    Sky.SkyboxFt = imageEight
+    Sky.SkyboxLf = imageEight
+    Sky.SkyboxRt = imageEight
+    Sky.SkyboxUp = imageEight
+    wait(0.25)
+end
 end)
 daytonights.Name = "DayToNight"
 daytonights.Parent = Frame
@@ -945,23 +1014,18 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "FIRE RAININING"
+EpicSaxGuys.Text = "STOP ALL SOUNDS"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()		
 while true do
-		part = Instance.new("Part")
-		part.Position =  Vector3.new(math.random(-500,500),math.random(1,500),math.random(-500,500))
-		part.Parent = game.Workspace
-		part.BrickColor = BrickColor.new("green")
-		fire = Instance.new("Fire")
-		fire.Size = 75
-		fire.Parent = part
-        part.Anchored = false
-        wait(0.5)
-	end
+    for i,v in pairs(workspace:GetDescendants()) do
+        if v:IsA("Sound") then
+            v.Playing = false
+        end
+    end
 end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
