@@ -1012,23 +1012,22 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "FIRE RAININING"
+EpicSaxGuys.Text = "POPUP"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()		
+for i,v in pairs(game.Players:GetPlayers()) do
 while true do
-		part = Instance.new("Part")
-		part.Position =  Vector3.new(math.random(-500,500),math.random(1,500),math.random(-500,500))
-		part.Parent = game.Workspace
-		part.BrickColor = BrickColor.new("green")
-		fire = Instance.new("Fire")
-		fire.Size = 75
-		fire.Parent = part
-        part.Anchored = false
-        wait(0.5)
-	end
+       wait(0.4)
+local kill = Instance.new("ScreenGui",v.PlayerGui)
+local kill2 = Instance.new("ImageLabel ,kill)
+kill2.Size = UDim2.new(0.400.0.345)
+kill2 Position = Udim2.new(D,math.random(1,100 .0.math.random(1. 1000))
+kill2.Image = "rbxassetid://15573950094"
+    end
+  end
 end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
