@@ -115,7 +115,7 @@ Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Name.BackgroundTransparency = 1.000
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "b00sjkidd gui👑2.72"
+Name.Text = "SHOW👑CASE"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -153,13 +153,13 @@ DS.BorderSizePixel = 3
 DS.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 DS.Size = UDim2.new(0, 79, 0, 31)
 DS.Font = Enum.Font.GothamBold
-DS.Text = "k00pkiddify"
+DS.Text = "realify"
 DS.TextColor3 = Color3.fromRGB(0, 0, 0)
 DS.TextScaled = true
 DS.TextSize = 14.000
 DS.TextWrapped = true
 DS.MouseButton1Down:connect(function()
-local ID = 11379488396
+local ID = 15630705973
 local particle = true
 
 -- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
@@ -188,11 +188,11 @@ if particle == true then
 end
 wait()
 sky = Instance.new("Sky",game:GetService("Lighting"))
-sky.SkyboxBk = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxFt = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxLf = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxRt = "http://www.roblox.com/asset/?id=11379488396"
-sky.SkyboxUp = "http://www.roblox.com/asset/?id=11379488396"
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=15630705973"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=15630705973"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=15630705973"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=15630705973"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=15630705973"
 wait()
 local ID = 11379488396 --id here
 function spamDecal(v)
@@ -1014,18 +1014,23 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "STOP ALL SOUNDS"
+EpicSaxGuys.Text = "FIRE RAININING"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()		
 while true do
-    for i,v in pairs(workspace:GetDescendants()) do
-        if v:IsA("Sound") then
-            v.Playing = false
-        end
-    end
+		part = Instance.new("Part")
+		part.Position =  Vector3.new(math.random(-500,500),math.random(1,500),math.random(-500,500))
+		part.Parent = game.Workspace
+		part.BrickColor = BrickColor.new("green")
+		fire = Instance.new("Fire")
+		fire.Size = 75
+		fire.Parent = part
+        part.Anchored = false
+        wait(0.5)
+	end
 end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
