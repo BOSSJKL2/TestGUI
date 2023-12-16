@@ -1031,17 +1031,19 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "FIRE RAININING"
+EpicSaxGuys.Text = "TROLL FACE"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()		
 while true do
+wait(0.1)
+local name = ..game.Players.LocalPlayer.Name
 wait()
 gui1=Instance.new("BillboardGui")
-gui1.Parent= game.Workspace.Tubers93HKRB.Head
-gui1.Adornee= game.Workspace.Tubers93HKRB.Head
+gui1.Parent= game.Workspace.name.Head
+gui1.Adornee= game.Workspace.name.Head
 gui1.Size=UDim2.new(2.5,0,2.5,0)
 gui1.StudsOffset=Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
