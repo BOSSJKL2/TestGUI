@@ -1022,7 +1022,6 @@ for i,v in pairs(game.Players:GetPlayers()) do
 		end
 	end
 end)
-local name = ..game.Players.LocalPlayer.Name
 EpicSaxGuys.Name = "EpicSaxGuy"
 EpicSaxGuys.Parent = Frame
 EpicSaxGuys.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -1040,8 +1039,8 @@ EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()
 wait(0.1)
 gui1 = Instance.new("BillboardGui")
-gui1.Parent = game.Workspace.name.Head
-gui1.Adornee = game.Workspace.name.Head
+gui1.Parent = game.Workspace.game.Players.LocalPlayer.Name.Head
+gui1.Adornee = game.Workspace.game.Players.LocalPlayer.Name.Head
 gui1.Size = UDim2.new(2.5,0,2.5,0)
 gui1.StudsOffset = Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
