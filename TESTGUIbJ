@@ -1022,6 +1022,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
 		end
 	end
 end)
+local name = ..game.Players.LocalPlayer.Name
 EpicSaxGuys.Name = "EpicSaxGuy"
 EpicSaxGuys.Parent = Frame
 EpicSaxGuys.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -1036,7 +1037,6 @@ EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
-local name = ..game.Players.LocalPlayer.Name
 EpicSaxGuys.MouseButton1Down:connect(function()
 wait(0.1)
 gui1 = Instance.new("BillboardGui")
