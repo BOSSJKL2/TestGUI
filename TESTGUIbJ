@@ -1446,13 +1446,23 @@ local A_1 = "😡TEAM BOSSJKLO AND JUPAL HAS HACKED YOUR GAME 😡"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-wait(1)
+wait(2)
 local A_1 = "😡HAHAH!?!?1😡"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-wait(1)
+wait(1.5)
 local A_1 = "😡WE WILL BE ROBLOX FOR A LONG T1ME!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(2)
+local A_1 = "😡HAHAHA YOU'VE BEEN TROLLED LOL!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(1.5)
+local A_1 = "😡SO FUNNI GUYS!!111😡"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
