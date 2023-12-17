@@ -1442,7 +1442,7 @@ ForceFields.TextScaled = true
 ForceFields.TextSize = 14.000
 ForceFields.TextWrapped = true
 ForceFields.MouseButton1Down:connect(function()
-local A_1 = "😡TEAM JKLO NEVER DIES!1!2!3!4!"
+local A_1 = "😡JKLO TEAM!1!4!"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
@@ -1452,7 +1452,7 @@ local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 wait(1)
-local A_1 = "😡I WILL BE WITH ROBOX FOR A LONG TIME!1!5!2!9"
+local A_1 = "🤑JUPAL IS LOOKING AT YOU!1?8!2!9"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
