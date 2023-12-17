@@ -110,7 +110,7 @@ EpicSaxGuy.Visible = true
 e666.Visible = true
 wait(0.2)
 end)
-local upd = 2.73
+local upd = 2.74
 Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
