@@ -1347,14 +1347,11 @@ e2006Theme.TextSize = 14.000
 e2006Theme.TextWrapped = true
 e2006Theme.MouseButton1Down:connect(function()
 	--Made by Servano
-
-local A_1 = "JKLO_TEAM!!                                                                                                                                              [😡] TEAM JKLO HAS JOINED TODAY."
+local A_1 = "😡TEAM JKLO HERE!1!2!3!4!"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
-
 wait(1)	
-
 end)
 e2006Themes.Name = "e2006Theme"
 e2006Themes.Parent = Frame
@@ -1439,23 +1436,23 @@ ForceFields.BorderSizePixel = 3
 ForceFields.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceFields.Size = UDim2.new(0, 89, 0, 34)
 ForceFields.Font = Enum.Font.GothamBold
-ForceFields.Text = "FREDDY🐻"
+ForceFields.Text = "JKLO Chat2"
 ForceFields.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceFields.TextScaled = true
 ForceFields.TextSize = 14.000
 ForceFields.TextWrapped = true
 ForceFields.MouseButton1Down:connect(function()
-local A_1 = "YOUR SO FREDDY🐻"
+local A_1 = "😡TEAM JKLO NEVER DIES!1!2!3!4!"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 wait(1)
-local A_1 = "YOUR SO FAZBEAR🐻"
+local A_1 = "😡HAHAH!?!?1!"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 wait(1)
-local A_1 = "har har har har har har🐻"
+local A_1 = "😡I WILL BE WITH ROBOX FOR A LONG TIME!1!5!2!9"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
