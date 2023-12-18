@@ -991,7 +991,7 @@ EpicSaxGuy.BorderSizePixel = 3
 EpicSaxGuy.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuy.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuy.Font = Enum.Font.GothamBold
-EpicSaxGuy.Text = "BOSSJKLOJumpscare"
+EpicSaxGuy.Text = "YCOOBJIDDJumpscare"
 EpicSaxGuy.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuy.TextScaled = true
 EpicSaxGuy.TextSize = 14.000
@@ -1004,7 +1004,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				local newgui = Instance.new("ScreenGui",v.PlayerGui)
 				newgui.Name = "k00p's Jumpscare"
 				local newimage = Instance.new("ImageLabel",newgui)
-				newimage.Image = "http://www.roblox.com/Asset/?id=15573950094"
+				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
 				newimage.Size = UDim2.new(1,1,1,1)
                                 newimage.BackgroundTransparency = 1
 				local s = Instance.new("Sound",newgui)
