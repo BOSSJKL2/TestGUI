@@ -1007,6 +1007,8 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
 				newimage.Size = UDim2.new(1,1,1,1)
                                 newimage.BackgroundTransparency = 1
+                                local m = Instance.new("Hint", game.workspace)
+		                m.Text = " YCOOBJIDD JOINED TO DESTROY HAHA!11!2!"
 				local s = Instance.new("Sound",newgui)
 				s.SoundId = "rbxassetid://8683380188"
 				s.Volume = 9e9
