@@ -1018,6 +1018,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				while wait(9) do
 
 					newimage.Parent:Destroy()
+m.Parent:Destroy()
 
 				end
 			end)
