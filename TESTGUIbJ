@@ -4,7 +4,7 @@
 
 
 local ScreenGui = Instance.new("ScreenGui")
-local ImageLabel = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
 local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
@@ -39,11 +39,13 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.Parent = game.CoreGui
 
-ImageLabel.Parent = ScreenGui
-ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
-ImageLabel.Size = UDim2.new(0, 378, 0, 250)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=15651176449"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.447
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
+Frame.Size = UDim2.new(0, 378, 0, 250)
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
@@ -1469,8 +1471,8 @@ Event:FireServer(A_1, A_2)
 end)
 -- Scripts:
 
-local function QFCS_fake_script() -- ImageLabel.Dragify 
-	local script = Instance.new('LocalScript', ImageLabel)
+local function QFCS_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
 	function dragify(Frame)
@@ -1511,8 +1513,8 @@ local function QFCS_fake_script() -- ImageLabel.Dragify
 	dragify(script.Parent)
 end
 coroutine.wrap(QFCS_fake_script)()
-local function PKIPWI_fake_script() -- ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel)
+local function PKIPWI_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
 
 	while wait() do
 		for i = 0,255,5 do
