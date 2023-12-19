@@ -8,7 +8,7 @@ local Frame = Instance.new("Frame")
 local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
-local ImageLabel = Instance.new("ImageLabel")
+local AR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
 local ARS = Instance.new("TextButton")
 local DSS = Instance.new("TextButton")
@@ -123,13 +123,30 @@ Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
 
-ImageLabel.Parent = TextLabel
-ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 85, 0)
-ImageLabel.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
-ImageLabel.Size = Size = UDim2.new(0, 79, 0, 31)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=15651176449"
-
+AR.Name = "autoreport"
+AR.Parent = Frame
+AR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+AR.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AR.BorderSizePixel = 3
+AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
+AR.Size = UDim2.new(0, 79, 0, 31)
+AR.Font = Enum.Font.GothamBold
+AR.Text = "NOTIFICATION"
+AR.TextColor3 = Color3.fromRGB(0, 0, 0)
+AR.TextScaled = true
+AR.TextSize = 14.000
+AR.TextWrapped = true
+AR.MouseButton1Down:connect(function()
+while true do 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "team JKLO",
+        Text = "JOIN TEAM JKLO TODAY!",
+        Icon = "http://www.roblox.com/asset/?id=15651176489",
+        Callback = Function
+    })
+    wait(1)
+end
+end)
 DS.Name = "decalspam"
 DS.Parent = Frame
 DS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
@@ -1001,7 +1018,6 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				while wait(9) do
 
 					newimage.Parent:Destroy()
-m.Parent:Destroy()
 
 				end
 			end)
