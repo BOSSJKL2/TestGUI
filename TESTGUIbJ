@@ -1469,8 +1469,8 @@ Event:FireServer(A_1, A_2)
 end)
 -- Scripts:
 
-local function QFCS_fake_script() -- Frame.Dragify 
-	local script = Instance.new('LocalScript', Frame)
+local function QFCS_fake_script() -- ImageLabel.Dragify 
+	local script = Instance.new('LocalScript', ImageLabel)
 
 	local UIS = game:GetService("UserInputService")
 	function dragify(Frame)
@@ -1511,8 +1511,8 @@ local function QFCS_fake_script() -- Frame.Dragify
 	dragify(script.Parent)
 end
 coroutine.wrap(QFCS_fake_script)()
-local function PKIPWI_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+local function PKIPWI_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
 
 	while wait() do
 		for i = 0,255,5 do
