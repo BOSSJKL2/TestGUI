@@ -8,6 +8,7 @@ local Frame = Instance.new("Frame")
 local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
 local AR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
 local ARS = Instance.new("TextButton")
@@ -122,6 +123,13 @@ Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
+
+ImageLabel.Parent = TextLabel
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 85, 0)
+ImageLabel.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
+ImageLabel.Size = UDim2.new(0, 378, 0, 250)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15651176449"
 
 AR.Name = "autoreport"
 AR.Parent = Frame
