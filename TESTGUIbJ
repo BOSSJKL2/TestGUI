@@ -244,13 +244,13 @@ ARS.Visible = false
 ARS.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 ARS.Size = UDim2.new(0, 79, 0, 31)
 ARS.Font = Enum.Font.GothamBold
-ARS.Text = "JKLO PARTICLES"
+ARS.Text = "DREAMYBULLXXX PARTICLES"
 ARS.TextColor3 = Color3.fromRGB(0, 0, 0)
 ARS.TextScaled = true
 ARS.TextSize = 14.000
 ARS.TextWrapped = true
 ARS.MouseButton1Down:connect(function()
-local ID = 15511150536 -- Change your ID here fellas cXz (Image ID)
+local ID = 15681662754 -- Change your ID here fellas cXz (Image ID)
  local particle = true
 
 -- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
