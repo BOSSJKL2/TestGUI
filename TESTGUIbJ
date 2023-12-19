@@ -435,7 +435,7 @@ Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://6942391979"
 		Spooky.Volume = 6e9
-                Spooky.Pitch = 0.8
+                Spooky.Pitch = 1.1
 		Spooky.Looped = true
 		Spooky:Play()
 end)
@@ -1040,7 +1040,6 @@ EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()
 wait(0.1)
-for i,v in pairs(game.Players:GetChildren()) do
 gui1 = Instance.new("BillboardGui")
 gui1.Parent = game.Workspace.Tubers93HKRB.Head
 gui1.Adornee = game.Workspace.Tubers93HKRB.Head
