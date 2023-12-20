@@ -49,13 +49,13 @@ Frame.Size = UDim2.new(0, 378, 0, 250)
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
-Credits.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Credits.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BorderSizePixel = 3
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "MUSIC"
+Credits.Text = "NEXT"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
@@ -80,7 +80,7 @@ wait(0.2)
 end)
 CREDITS.Name = "Credits"
 CREDITS.Parent = Frame
-CREDITS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+CREDITS.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 CREDITS.Visible = false
 CREDITS.BorderColor3 = Color3.fromRGB(255, 255, 255)
 CREDITS.BorderSizePixel = 3
