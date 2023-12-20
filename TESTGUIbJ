@@ -1033,7 +1033,7 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "TROLL"
+EpicSaxGuys.Text = "DREAMYBULLXXX"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
@@ -1047,7 +1047,7 @@ gui1.Size = UDim2.new(2.5,0,2.5,0)
 gui1.StudsOffset = Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
 text1 = Instance.new("ImageLabel")
-text1.Image = "http://www.roblox.com/asset/?id=45120559"
+text1.Image = "http://www.roblox.com/asset/?id=15681662754"
 text1.Size = UDim2.new(1,0,1,0)
 text1.Position = UDim2.new(0,0,0,0)
 text1.BackgroundTransparency = 1
