@@ -66,6 +66,7 @@ dss.Visible = true
 daytonights.Visible = true
 e1x1x1x1laughs.Visible = true
 CREDITS.Visible = true
+f666.Visible = true
 Credits.Visible = false
 DayToNight.Visible = false
 e1x1x1x1Laugh.Visible = false
@@ -98,6 +99,7 @@ dss.Visible = false
 CREDITS.Visible = false
 daytonights.Visible = false
 e1x1x1x1laughs.Visible = false
+f666.Visible = false
 Credits.Visible = true
 DayToNight.Visible = true
 e1x1x1x1Laugh.Visible = true
@@ -968,20 +970,37 @@ wait(0.2)
 end)
 f666.Name = "e666"
 f666.Parent = Frame
-f666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+f666.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 f666.BorderColor3 = Color3.fromRGB(255, 255, 255)
 f666.BorderSizePixel = 3
 f666.Visible = false
 f666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 f666.Size = UDim2.new(0, 83, 0, 31)
 f666.Font = Enum.Font.GothamBold
-f666.Text = "NEXT"
+f666.Text = "DREAMYBULLXXX SKY"
 f666.TextColor3 = Color3.fromRGB(0, 0, 0)
 f666.TextScaled = true
 f666.TextSize = 14.000
 f666.TextWrapped = true
 f666.MouseButton1Down:connect(function()
-
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://1839246711"
+sound.Volume = 9e9
+sound:Play()
+sound.Looped = true
+repeat
+wait(0.01)
+until sound.IsLoaded == true
+wait(13)
+de = Instance.new("DistortionSoundEffect",sound)
+de.Level = 0.8
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "rbxassetid://15681662754"
+sky.SkyboxFt = "rbxassetid://15681662754"
+sky.SkyboxLf = "rbxassetid://15681662754"
+sky.SkyboxRt = "rbxassetid://15681662754"
+sky.SkyboxUp = "rbxassetid://15681662754"
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
