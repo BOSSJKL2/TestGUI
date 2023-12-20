@@ -433,6 +433,11 @@ ars.TextScaled = true
 ars.TextSize = 14.000
 ars.TextWrapped = true
 ars.MouseButton1Down:connect(function()
+for i,v in pairs(workspace:GetDescendants()) do
+        if v:IsA("Sound") then
+            v.Playing = false
+        end
+wait()
 Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://6942391979"
@@ -456,6 +461,11 @@ dss.TextScaled = true
 dss.TextSize = 14.000
 dss.TextWrapped = true
 dss.MouseButton1Down:connect(function()
+for i,v in pairs(workspace:GetDescendants()) do
+        if v:IsA("Sound") then
+            v.Playing = false
+        end
+wait()
 Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "real's theme"
 		Spooky.SoundId = "rbxassetid://6695430066"
@@ -523,17 +533,85 @@ e1x1x1x1laughs.Visible = false
 e1x1x1x1laughs.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
 e1x1x1x1laughs.Size = UDim2.new(0, 79, 0, 34)
 e1x1x1x1laughs.Font = Enum.Font.GothamBold
-e1x1x1x1laughs.Text = "STOP"
+e1x1x1x1laughs.Text = "JUMPIFY"
 e1x1x1x1laughs.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1laughs.TextScaled = true
 e1x1x1x1laughs.TextSize = 14.000
 e1x1x1x1laughs.TextWrapped = true
 e1x1x1x1laughs.MouseButton1Down:connect(function()
-    for i,v in pairs(workspace:GetDescendants()) do
-        if v:IsA("Sound") then
-            v.Playing = false
-        end
-    end
+    local ID = 15690319034
+local particle = true
+
+-- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
+
+if particle == true then
+	for i,v in pairs (game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			local particle = Instance.new("ParticleEmitter")
+			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+			particle.Parent = v
+			particle.Rate = 200
+			for i,x in pairs (game.Workspace:GetChildren()) do
+				if x:IsA("Model") then
+					for i,z in pairs (x:GetChildren()) do
+						if z:IsA("Part") then
+							local particle2 = Instance.new("ParticleEmitter")
+							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+							particle2.Parent = z
+							particle2.Rate = 200
+						end
+					end
+				end
+			end
+		end
+	end
+end
+wait()
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=" ..ID
+wait()
+local ID = 11379488396 --id here
+function spamDecal(v)
+	if v:IsA("Part") then
+		for i = 0, 5 do
+			D = Instance.new("Decal")
+			D.Name = "k00pz_decal_1"
+			D.Face = i
+			D.Parent = v
+			D.Texture = ("http://www.roblox.com/asset/?id="..Id)
+		end
+	else
+		if v:IsA("Model") then
+			for a,b in pairs(v:GetChildren()) do
+				spamDecal(b)
+			end
+		end
+	end
+end
+function decalspam(id) --use this function, not the one on top
+	Id = id
+	for i,v in pairs(game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			for i= 0, 5 do
+				D = Instance.new("Decal")
+				D.Name = "k00pz_decal_2"
+				D.Face = i
+				D.Parent = v
+				D.Texture = ("http://www.roblox.com/asset/?id="..id)
+			end
+		else
+			if v:IsA("Model") then
+				for a,b in pairs(v:GetChildren()) do
+					spamDecal(b)
+				end
+			end
+		end
+	end
+end
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
@@ -883,6 +961,11 @@ daytonights.TextSize = 14.000
 daytonights.TextWrapped = true
 daytonights.MouseButton1Down:connect(function()
 sound = Instance.new("Sound",workspace)
+for i,v in pairs(workspace:GetDescendants()) do
+        if v:IsA("Sound") then
+            v.Playing = false
+        end
+wait()
 sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
 sound.SoundId = "rbxassetid://1839246711"
 sound.Volume = 9e9
