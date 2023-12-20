@@ -1033,7 +1033,7 @@ EpicSaxGuys.Visible = false
 EpicSaxGuys.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuys.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuys.Font = Enum.Font.GothamBold
-EpicSaxGuys.Text = "DREAMYBULLXXX"
+EpicSaxGuys.Text = "DREAMYBULLXXX NEXTBOT"
 EpicSaxGuys.TextColor3 = Color3.new(0, 0, 0)
 EpicSaxGuys.TextScaled = true
 EpicSaxGuys.TextSize = 14.000
@@ -1043,7 +1043,7 @@ wait(0.1)
 gui1 = Instance.new("BillboardGui")
 gui1.Parent = game.Workspace.Tubers93HKRB.Head
 gui1.Adornee = game.Workspace.Tubers93HKRB.Head
-gui1.Size = UDim2.new(2.5,0,2.5,0)
+gui1.Size = UDim2.new(10,0,10,0)
 gui1.StudsOffset = Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
 text1 = Instance.new("ImageLabel")
