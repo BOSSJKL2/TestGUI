@@ -1069,10 +1069,6 @@ text1.Position = UDim2.new(0,0,0,0)
 text1.BackgroundTransparency = 1
 text1.Parent = gui1
 wait()
-if gui1.Parent = game.Workspace.Tubers93HKRB.Head then
-wait(0.1)
-else
-EpicSaxGuys.Text = "YOU ARE NOT BOSSJKLO"
 end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
