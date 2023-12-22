@@ -1364,7 +1364,18 @@ DISC0S.TextScaled = true
 DISC0S.TextSize = 14.000
 DISC0S.TextWrapped = true
 DISC0S.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/fa65TmPR"))()
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://247893371"
+sound.Volume = 9e9
+sound:Play()
+sound.Looped = true
+repeat
+wait(0.01)
+until sound.IsLoaded == true
+wait(13)
+de = Instance.new("DistortionSoundEffect",sound)
+de.Level = 0.8
 end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
