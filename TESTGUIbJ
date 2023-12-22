@@ -55,13 +55,25 @@ Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Name.BackgroundTransparency = 1.000
-Name.Size = UDim2.new(0, 378, 0, 25)
+Name.Size = UDim2.new(0, 250, 0, 25)
 Name.Font = Enum.Font.GothamBold
 Name.Text = "SHOW👑CASE"..upd
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
+
+NAME.Name = "Name"
+NAME.Parent = Frame
+NAME.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NAME.BackgroundTransparency = 1.000
+NAME.Size = UDim2.new(0, 250, 0, 10)
+NAME.Font = Enum.Font.GothamBold
+NAME.Text = "MADE BY BOSSJKLO"
+NAME.TextColor3 = Color3.fromRGB(0, 0, 0)
+NAME.TextScaled = true
+NAME.TextSize = 7.000
+NAME.TextWrapped = true
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
