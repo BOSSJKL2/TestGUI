@@ -1395,18 +1395,18 @@ e2006Theme.BorderSizePixel = 3
 e2006Theme.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
 e2006Theme.Size = UDim2.new(0, 89, 0, 31)
 e2006Theme.Font = Enum.Font.GothamBold
-e2006Theme.Text = "JKLO Chat"
+e2006Theme.Text = "MSG"
 e2006Theme.TextColor3 = Color3.fromRGB(0, 0, 0)
 e2006Theme.TextScaled = true
 e2006Theme.TextSize = 14.000
 e2006Theme.TextWrapped = true
 e2006Theme.MouseButton1Down:connect(function()
-	--Made by Servano
-local A_1 = "😡TEAM JKLO HERE!1!2!3!4!"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(1)	
+while wait() do
+	msg = Instance.new ("Hint")
+		msg.Parent = game.Workspace
+		msg.Text = "MUHAWHAWHAWMUHAWHAWHAW! Real Has Destroy Your Server!"
+		wait(1)
+		msg:remove()
 end)
 e2006Themes.Name = "e2006Theme"
 e2006Themes.Parent = Frame
