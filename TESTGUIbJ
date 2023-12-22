@@ -31,6 +31,7 @@ local DISC0S = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local e2006Themes = Instance.new("TextButton")
 local E2006THEMES = Instance.new("TextButton")
+local e2006themeS = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
 local ForceFields = Instance.new("TextButton")
 
@@ -525,7 +526,7 @@ e1x1x1x1laughs.Visible = false
 e1x1x1x1laughs.Position = UDim2.new(0.0714285746, 0, 0.649000000, 0)
 e1x1x1x1laughs.Size = UDim2.new(0, 325, 0, 25)
 e1x1x1x1laughs.Font = Enum.Font.GothamBold
-e1x1x1x1laughs.Text = "STOP"
+e1x1x1x1laughs.Text = "STOP ALL SOUND"
 e1x1x1x1laughs.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1laughs.TextScaled = true
 e1x1x1x1laughs.TextSize = 14.000
@@ -1358,7 +1359,7 @@ DISC0S.Visible = false
 DISC0S.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 DISC0S.Size = UDim2.new(0, 89, 0, 31)
 DISC0S.Font = Enum.Font.GothamBold
-DISC0S.Text = "ROEXPLOIT"
+DISC0S.Text = "FUNNI"
 DISC0S.TextColor3 = Color3.fromRGB(0, 0, 0)
 DISC0S.TextScaled = true
 DISC0S.TextSize = 14.000
@@ -1455,6 +1456,27 @@ wait()
 E2006THEMES.Visible = false
 e2006Themes.Visible = true
 wait()
+end)
+e2006themeS.Name = "e2006Theme"
+e2006themeS.Parent = Frame
+e2006themeS.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+e2006themeS.BorderColor3 = Color3.fromRGB(255, 255, 255)
+e2006themeS.BorderSizePixel = 3
+e2006themeS.Visible = false
+e2006themeS.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
+e2006themeS.Size = UDim2.new(0, 89, 0, 31)
+e2006themeS.Font = Enum.Font.GothamBold
+e2006themeS.Text = "WONT STOP US"
+e2006themeS.TextColor3 = Color3.fromRGB(0, 0, 0)
+e2006themeS.TextScaled = true
+e2006themeS.TextSize = 14.000
+e2006themeS.TextWrapped = true
+e2006themeS.MouseButton1Down:connect(function()
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://1847661821"
+sound.Volume = 9e9
+sound:Play()
 end)
 ForceField.Name = "ForceField"
 ForceField.Parent = Frame
