@@ -63,6 +63,19 @@ Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
 
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0, 0, 0.400, 0)
+Name.Size = UDim2.new(0, 150, 0, 10)
+Name.Font = Enum.Font.GothamBold
+Name.Text = "By BossJKLO"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
 Credits.Name = "Credits"
 Credits.Parent = Frame
 Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
