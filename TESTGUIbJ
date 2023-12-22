@@ -6,6 +6,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Name = Instance.new("TextLabel")
+local NAME = Instance.new("TextLabel")
 local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
 local PAGE4 = Instance.new("TextButton")
