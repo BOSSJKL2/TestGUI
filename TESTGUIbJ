@@ -135,7 +135,7 @@ PAGE4.Parent = Frame
 PAGE4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 PAGE4.BorderColor3 = Color3.fromRGB(255, 255, 255)
 PAGE4.BorderSizePixel = 3
-PAGE4.Position = UDim2.new(0, 80, 0.912, 0)
+PAGE4.Position = UDim2.new(0, 85, 0.912, 0)
 PAGE4.Size = UDim2.new(0, 79, 0, 31)
 PAGE4.Font = Enum.Font.GothamBold
 PAGE4.Text = "PAGE4"
@@ -160,7 +160,6 @@ AR.TextScaled = true
 AR.TextSize = 14.000
 AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
-while true do 
 game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "team JKLO",
         Text = "JOIN TEAM JKLO TODAY!",
