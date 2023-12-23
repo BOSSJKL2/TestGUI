@@ -11,6 +11,7 @@ local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
 local PAGE4 = Instance.new("TextButton")
 local AR = Instance.new("TextButton")
+local DR = Instance.new("TextButton")
 local DS = Instance.new("TextButton")
 local ARS = Instance.new("TextButton")
 local DSS = Instance.new("TextButton")
@@ -96,7 +97,6 @@ dss.Visible = true
 daytonights.Visible = true
 e1x1x1x1laughs.Visible = true
 CREDITS.Visible = true
-f666.Visible = true
 DISC0S.Visible = true
 Credits.Visible = false
 DayToNight.Visible = false
@@ -130,7 +130,6 @@ dss.Visible = false
 CREDITS.Visible = false
 daytonights.Visible = false
 e1x1x1x1laughs.Visible = false
-f666.Visible = false
 DISC0S.Visible = false
 Credits.Visible = true
 DayToNight.Visible = true
@@ -158,7 +157,50 @@ PAGE4.TextScaled = true
 PAGE4.TextSize = 14.000
 PAGE4.TextWrapped = true
 PAGE4.MouseButton1Down:connect(function()
-
+f666.Visible = true
+DR.Visible = true
+PAGE4BVisible = true
+Credits.Visible = false
+DayToNight.Visible = false
+e1x1x1x1Laugh.Visible = false
+DS.Visible = false
+AR.Visible = false
+ForceField.Visible = false
+e2006Theme.Visible = false
+Disc0.Visible = false
+EpicSaxGuy.Visible = false
+e666.Visible = false
+wait(0.2)
+end)
+PAGE4B.Name = "Credits"
+PAGE4B.Parent = Frame
+PAGE4B.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PAFE4B.Visible = false
+PAGE4B.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PAGE4B.BorderSizePixel = 3
+PAGE4B.Position = UDim2.new(0, 80, 0.912, 0)
+PAGE4B.Size = UDim2.new(0, 79, 0, 31)
+PAGE4B.Font = Enum.Font.GothamBold
+PAGE4B.Text = "BACK"
+PAGE4B.TextColor3 = Color3.fromRGB(0, 0, 0)
+PAGE4B.TextScaled = true
+PAGE4B.TextSize = 14.000
+PAGE4B.TextWrapped = true
+PAGE4B.MouseButton1Down:connect(function()
+f666.Visible = false
+DR.Visible = false
+PAGE4B.Visible = false
+Credits.Visible = true
+DayToNight.Visible = true
+e1x1x1x1Laugh.Visible = true
+DS.Visible = true
+AR.Visible = true
+ForceField.Visible = true
+e2006Theme.Visible = true
+Disc0.Visible = true
+EpicSaxGuy.Visible = true
+e666.Visible = true
+wait(0.2)
 end)
 AR.Name = "autoreport"
 AR.Parent = Frame
@@ -183,6 +225,87 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     })
     wait(1)
 end
+end)
+DR.Name = "decalspam"
+DR.Parent = Frame
+DR.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+DR.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DR.BorderSizePixel = 3
+DR.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
+DR.Size = UDim2.new(0, 79, 0, 31)
+DR.Font = Enum.Font.GothamBold
+DR.Text = "BALLRAIN"
+DR.TextColor3 = Color3.fromRGB(0, 0, 0)
+DR.TextScaled = true
+DR.TextSize = 14.000
+DR.TextWrapped = true
+DR.MouseButton1Down:connect(function()
+while true do
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			wait()
+			doom=Instance.new("Part")
+			local imnotfat = math.random(1, 3)
+			if imnotfat == 1 then
+				doom.Shape = "Ball"
+			else if imnotfat == 2 then
+					doom.Shape = "Cylinder"
+				else 
+				end end
+			doom.Material = "Neon"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			yooka=math.random(-200, -50)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, yooka, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, 800, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+		end
 end)
 DS.Name = "decalspam"
 DS.Parent = Frame
