@@ -1116,7 +1116,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				local newimage = Instance.new("ImageLabel",newgui)
 				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
 				newimage.Size = UDim2.new(0,400,0,345)
-                                newimage.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
+                               
                                 newimage.BackgroundTransparency = 1
                                 local m = Instance.new("Hint", game.workspace)
 		                m.Text = " YCOOBJIDD JOINED TO DESTROY HAHA!11!2!"
