@@ -950,11 +950,16 @@ DayToNights.TextScaled = true
 DayToNights.TextSize = 14.000
 DayToNights.TextWrapped = true
 DayToNights.MouseButton1Down:connect(function()
-local m = Instance.new("Message", game.workspace)
-		m.Text = "HAHAHAHA YOUR GAME GOT EXPLOITED BY BOSSJKLOðŸ¡"
-                m.Looped = true
-wait(1)
-m:Destroy()
+for i,v in pairs(game.Players:GetPlayers()) do
+			while true do
+				wait(0.4)
+				local kill = Instance.new("ScreenGui",v.PlayerGui)
+				local kill2 = Instance.new("ImageLabel",kill)
+				kill2.Size = UDim2.new(0,200,0,173)
+				kill2.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
+				kill2.Image = "rbxassetid://11426185601"
+			end
+		end
 end)
 daytonights.Name = "DayToNight"
 daytonights.Parent = Frame
