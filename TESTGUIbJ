@@ -957,7 +957,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				local kill2 = Instance.new("ImageLabel",kill)
 				kill2.Size = UDim2.new(0,200,0,173)
 				kill2.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
-				kill2.Image = "rbxassetid://11426185601"
+				kill2.Image = "rbxassetid://15681662754"
 			end
 		end
 end)
