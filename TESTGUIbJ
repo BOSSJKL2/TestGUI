@@ -6,7 +6,6 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Name = Instance.new("TextLabel")
-local NAME = Instance.new("TextLabel")
 local Credits = Instance.new("TextButton")
 local CREDITS = Instance.new("TextButton")
 local PAGE4 = Instance.new("TextButton")
@@ -65,19 +64,6 @@ Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
-
-NAME.Name = "Name"
-NAME.Parent = Frame
-NAME.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-NAME.BackgroundTransparency = 1.000
-NAME.Position = UDim2.new(0, 0, 168, 0)
-NAME.Size = UDim2.new(0, 150, 0, 16)
-NAME.Font = Enum.Font.GothamBold
-NAME.Text = "By BossJKLO"
-Name.TextColor3 = Color3.fromRGB(0, 0, 0)
-NAME.TextScaled = true
-NAME.TextSize = 14.000
-NAME.TextWrapped = true
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
@@ -158,50 +144,7 @@ PAGE4.TextScaled = true
 PAGE4.TextSize = 14.000
 PAGE4.TextWrapped = true
 PAGE4.MouseButton1Down:connect(function()
-f666.Visible = true
-DR.Visible = true
-PAGE4BVisible = true
-Credits.Visible = false
-DayToNight.Visible = false
-e1x1x1x1Laugh.Visible = false
-DS.Visible = false
-AR.Visible = false
-ForceField.Visible = false
-e2006Theme.Visible = false
-Disc0.Visible = false
-EpicSaxGuy.Visible = false
-e666.Visible = false
-wait(0.2)
-end)
-PAGE4B.Name = "Credits"
-PAGE4B.Parent = Frame
-PAGE4B.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-PAFE4B.Visible = false
-PAGE4B.BorderColor3 = Color3.fromRGB(255, 255, 255)
-PAGE4B.BorderSizePixel = 3
-PAGE4B.Position = UDim2.new(0, 80, 0.912, 0)
-PAGE4B.Size = UDim2.new(0, 79, 0, 31)
-PAGE4B.Font = Enum.Font.GothamBold
-PAGE4B.Text = "BACK"
-PAGE4B.TextColor3 = Color3.fromRGB(0, 0, 0)
-PAGE4B.TextScaled = true
-PAGE4B.TextSize = 14.000
-PAGE4B.TextWrapped = true
-PAGE4B.MouseButton1Down:connect(function()
-f666.Visible = false
-DR.Visible = false
-PAGE4B.Visible = false
-Credits.Visible = true
-DayToNight.Visible = true
-e1x1x1x1Laugh.Visible = true
-DS.Visible = true
-AR.Visible = true
-ForceField.Visible = true
-e2006Theme.Visible = true
-Disc0.Visible = true
-EpicSaxGuy.Visible = true
-e666.Visible = true
-wait(0.2)
+
 end)
 AR.Name = "autoreport"
 AR.Parent = Frame
