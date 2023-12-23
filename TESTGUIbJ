@@ -943,16 +943,15 @@ DayToNights.Visible = false
 DayToNights.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
 DayToNights.Size = UDim2.new(0, 83, 0, 31)
 DayToNights.Font = Enum.Font.GothamBold
-DayToNights.Text = "MSG"
+DayToNights.Text = "message"
 DayToNights.TextColor3 = Color3.fromRGB(0, 0, 0)
 DayToNights.TextScaled = true
 DayToNights.TextSize = 14.000
 DayToNights.TextWrapped = true
 DayToNights.MouseButton1Down:connect(function()
-while true do
 local m = Instance.new("Message", game.workspace)
-		m.Text = "ðŸ˜¡HAHAHAHA YOUR GAME GOT EXPLOITED BY BOSSJKLOðŸ˜¡"
-wait(1.5)
+		m.Text = "HAHAHAHA YOUR GAME GOT EXPLOITED BY BOSSJKLOðŸ¡"
+wait(0.9)
 m:Destroy()
 end)
 daytonights.Name = "DayToNight"
