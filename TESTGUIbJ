@@ -1144,9 +1144,11 @@ EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()
 wait(0.1)
-gui1 = Instance.new("BillboardGui")
-gui1.Parent = game.Workspace.Tubers93HKRB.Head
-gui1.Adornee = game.Workspace.Tubers93HKRB.Head
+for i,v in pairs(game.Players:GetPlayers()) do
+
+gui1 = Instance.new("BillboardGui",v.PlayerGui)
+gui1.Parent = v
+gui1.Adornee = v
 gui1.Size = UDim2.new(10,0,10,0)
 gui1.StudsOffset = Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
