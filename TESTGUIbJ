@@ -1109,7 +1109,8 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				newgui.Name = "k00p's Jumpscare"
 				local newimage = Instance.new("ImageLabel",newgui)
 				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
-				newimage.Size = UDim2.new(1,1,1,1)
+				newimage.Size = UDim2.new(0,400,0,345)
+                                newimage.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
                                 newimage.BackgroundTransparency = 1
                                 local m = Instance.new("Hint", game.workspace)
 		                m.Text = " YCOOBJIDD JOINED TO DESTROY HAHA!11!2!"
@@ -1144,11 +1145,9 @@ EpicSaxGuys.TextSize = 14.000
 EpicSaxGuys.TextWrapped = true
 EpicSaxGuys.MouseButton1Down:connect(function()
 wait(0.1)
-for i,v in pairs(game.Players:GetPlayers()) do
-
-gui1 = Instance.new("BillboardGui",v.PlayerGui)
-gui1.Parent = v
-gui1.Adornee = v
+gui1 = Instance.new("BillboardGui")
+gui1.Parent = game.Workspace.Tubers93HKRB.Head
+gui1.Adornee = game.Workspace.Tubers93HKRB.Head
 gui1.Size = UDim2.new(10,0,10,0)
 gui1.StudsOffset = Vector3.new(0,0,0)
 gui1.AlwaysOnTop = true
