@@ -55,7 +55,7 @@ Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Name.BackgroundTransparency = 1.000
-Name.Size = UDim2.new(0, 130, 0, 70)
+Name.Size = UDim2.new(0, 130, 0, 45)
 Name.Font = Enum.Font.GothamBold
 Name.Text = "b00sjkidd gui EPIC version 2.74 By TJ_TEAMJKLO"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -943,7 +943,7 @@ DayToNights.Visible = false
 DayToNights.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
 DayToNights.Size = UDim2.new(0, 83, 0, 31)
 DayToNights.Font = Enum.Font.GothamBold
-DayToNights.Text = "message"
+DayToNights.Text = "MSG"
 DayToNights.TextColor3 = Color3.fromRGB(0, 0, 0)
 DayToNights.TextScaled = true
 DayToNights.TextSize = 14.000
@@ -951,7 +951,8 @@ DayToNights.TextWrapped = true
 DayToNights.MouseButton1Down:connect(function()
 local m = Instance.new("Message", game.workspace)
 		m.Text = "HAHAHAHA YOUR GAME GOT EXPLOITED BY BOSSJKLOðŸ¡"
-wait(0.9)
+                m.Looped = true
+wait(1)
 m:Destroy()
 end)
 daytonights.Name = "DayToNight"
